@@ -19,8 +19,13 @@ p{
     font-family: Poppins-Regular;
     line-height: 1.5rem;
 }
+ul{
+    padding: 0;
+    margin: auto;
+}
 ul li{
     list-style: none;
+    
 }
 .container {
     width: 90%;
@@ -556,10 +561,10 @@ ul li{
     width: 50%;
 }
 .main-head{
-    font-size:40px;
+    font-size:60px;
     font-weight: 500;
-    width: 50%;
-    line-height: 3.5rem;
+    width: 75%;
+    line-height: 5rem;
     font-family: Poppins-Bold;
 }
 .spotlight-description{
@@ -1169,4 +1174,949 @@ ul li{
 }
 .spotlight-bottom-bottom ul li{
     width: 25%;
+}
+/* ------------------------------------------------------------------1440px responsive-----spotlight-----*/
+
+@media all and (max-width: 1440px){
+    #Spotlight-Bottom{
+        margin: 40px 0;
+    }
+    .container.Spotlight-Bottom{
+    }
+    .spotlight-bottom-top{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .spotlight-bottom-top h3{
+        color: #555;
+        font-size: 18px;
+    }
+    .spotlight-bottom-top h3 span{
+        color: #000;
+        font-size: 18px;
+        margin: 0 5px;
+    }
+    .spotlight-bottom-bottom{
+        width: 80%;
+        margin: auto;
+    }
+    .spotlight-bottom-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        margin: 5px auto;
+        width: 90%;
+    }
+    .spotlight-bottom-bottom ul li{
+        width: 25%;
+    }
+}
+/* ------------------------------------------------------------------980px responsive-----spotlight-----*/
+@media all and (max-width: 980px){
+    #Spotlight-Bottom{
+        margin: 40px 0;
+    }
+    .container.Spotlight-Bottom{
+    }
+    .spotlight-bottom-top{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .spotlight-bottom-top h3{
+        color: #555;
+        font-size: 18px;
+    }
+    .spotlight-bottom-top h3 span{
+        color: #000;
+        font-size: 18px;
+        margin: 0 5px;
+    }
+    .spotlight-bottom-bottom{
+        width: 90%;
+        margin: auto;
+    }
+    .spotlight-bottom-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        margin: 5px auto;
+        width: 100%;
+    }
+    .spotlight-bottom-bottom ul li{
+        width: 22%;
+        margin: auto;
+    }
+    .spotlight-bottom-bottom ul li img{
+    }
+}
+/* ------------------------------------------------------------------768px responsive-----spotlight-----*/
+@media all and (max-width: 768px){
+    #Spotlight-Bottom{
+        margin: 40px 0;
+    }
+    .container.Spotlight-Bottom{
+    }
+    .spotlight-bottom-top{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .spotlight-bottom-top h3{
+        color: #555;
+        font-size: 18px;
+    }
+    .spotlight-bottom-top h3 span{
+        color: #000;
+        font-size: 18px;
+        margin: 0 5px;
+    }
+    .spotlight-bottom-bottom{
+        width: 100%;
+        margin: auto;
+    }
+    .spotlight-bottom-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        margin: 5px auto;
+        width: 100%;
+    }
+    .spotlight-bottom-bottom ul li{
+        width: 22%;
+        margin: auto;
+    }
+    .spotlight-bottom-bottom ul li img{
+        width: 80px;
+        height: 30px;
+    }
+}
+/* ------------------------------------------------------------------640px responsive-----spotlight-----*/
+@media all and (max-width: 640px){
+    #Spotlight-Bottom{
+        margin: 40px 0;
+    }
+    .container.Spotlight-Bottom{
+    }
+    .spotlight-bottom-top{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .spotlight-bottom-top h3{
+        color: #555;
+        font-size: 15px;
+    }
+    .spotlight-bottom-top h3 span{
+        color: #000;
+        font-size: 15px;
+        margin: 0 5px;
+    }
+    .spotlight-bottom-bottom{
+        width: 100%;
+        margin: auto;
+    }
+    .spotlight-bottom-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        margin: 5px auto;
+        width: 100%;
+    }
+    .spotlight-bottom-bottom ul li{
+        width: 22%;
+        margin: auto;
+    }
+    .spotlight-bottom-bottom ul li img{
+        width: 80px;
+        height: 25px;
+    }
+}
+/* ------------------------------------------------------------------360px responsive-----spotlight-----*/
+@media all and (max-width: 360px){
+    #Spotlight-Bottom{
+        margin: 40px 0;
+    }
+    .container.Spotlight-Bottom{
+    }
+    .spotlight-bottom-top{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .spotlight-bottom-top h3{
+        color: #555;
+        font-size: 13px;
+    }
+    .spotlight-bottom-top h3 span{
+        color: #000;
+        font-size: 13px;
+        margin: 0 5px;
+    }
+    .spotlight-bottom-bottom{
+        width: 100%;
+        margin: auto;
+    }
+    .spotlight-bottom-bottom ul{
+        display: flex;
+        justify-content: space-between;
+        margin: 5px auto;
+        width: 100%;
+    }
+    .spotlight-bottom-bottom ul li{
+        width: 20%;
+        margin: auto;
+    }
+    .spotlight-bottom-bottom ul li img{
+        width: 45px;
+        height: 15px;
+    }
+}
+
+/* ///////////////////////////////////////////////////////////////////////////<-- About Us --> */
+#About-us{
+    background: #FFFCF3;
+    height: auto;
+    padding: 50px 0;
+}
+.container.About-us{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.About-us-left{
+    width: 50%;
+}
+.About-us-left h5{
+    font-size: 15px;
+    color: #9b9494;
+    margin: 20px 0;
+}
+.About-us-left h3{
+    font-size: 35px;
+    width: 80%;
+    font-family: Poppins-Bold;
+    line-height: 3rem;
+}
+.imgbox{
+    width: 100%;
+}
+.imgbox img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+.About-us-right{
+    width: 50%;
+    padding: 65px;
+}
+.About-us-right h5{
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Poppins-Regular;
+    line-height: 2rem;
+    margin-bottom: 50px;
+}
+.service-box{
+    margin: 90px auto;
+}
+.services{
+    margin: 14px 0;
+}
+.services img{
+    width: 12px;
+}
+.services span{
+    font-size: 16px;
+    font-family: Poppins-Regular;
+}
+.About-us-greenbox{
+    position: absolute;
+    bottom: -50px;
+    right: 250px;
+    width: 500px;
+    height: auto;
+    background:#D5FA52 ;
+    border-radius: 10px;
+}
+.greenbox-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 30px;
+    text-align: center;
+}
+.greenbox-content li{
+    width: 33%;
+}
+.greenbox-content li:nth-child(2){
+    border-left: #000 1px solid;
+    border-right: #000 1px solid;
+}
+.greenbox-content li h5{
+    font-size: 20px;
+    margin: 0;
+}
+.greenbox-content li p{
+    font-size: 12px;
+    margin: 10px;
+}
+
+/* ------------------------------------------------------------------1280px responsive-----About us-----*/
+@media all and (max-width: 1280px){
+    #About-us{
+        background: #FFFCF3;
+        height: auto;
+        padding: 50px 0;
+    }
+    .container.About-us{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+    .About-us-left{
+        width: 50%;
+    }
+    .About-us-left h5{
+        font-size: 15px;
+        color: #9b9494;
+        margin: 20px 0;
+    }
+    .About-us-left h3{
+        font-size: 35px;
+        width: 95%;
+        font-family: Poppins-Bold;
+        line-height: 3rem;
+    }
+    .imgbox{
+        width: 100%;
+    }
+    .imgbox img{
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+    }
+    .About-us-right{
+        width: 50%;
+        padding: 65px;
+    }
+    .About-us-right h5{
+        font-size: 18px;
+        font-weight: normal;
+        font-family: Poppins-Regular;
+        line-height: 2rem;
+        margin-bottom: 50px;
+    }
+    .service-box{
+        margin: 90px auto;
+    }
+    .services{
+        margin: 14px 0;
+    }
+    .services img{
+        width: 12px;
+    }
+    .services span{
+        font-size: 16px;
+        font-family: Poppins-Regular;
+    }
+    .About-us-greenbox{
+        position: absolute;
+        bottom: -50px;
+        right: 250px;
+        width: 500px;
+        height: auto;
+        background:#D5FA52 ;
+        border-radius: 10px;
+    }
+    .greenbox-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px 30px;
+        text-align: center;
+    }
+    .greenbox-content li{
+        width: 33%;
+    }
+    .greenbox-content li:nth-child(2){
+        border-left: #000 1px solid;
+        border-right: #000 1px solid;
+    }
+    .greenbox-content li h5{
+        font-size: 20px;
+        margin: 0;
+    }
+    .greenbox-content li p{
+        font-size: 12px;
+        margin: 10px;
+    }
+}
+/* ------------------------------------------------------------------980px responsive-----About us-----*/
+@media all and (max-width: 980px){
+    #About-us{
+        background: #FFFCF3;
+        height: auto;
+        padding: 50px 0;
+    }
+    .container.About-us{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+    .About-us-left{
+        width: 50%;
+    }
+    .About-us-left h5{
+        font-size: 15px;
+        color: #9b9494;
+        margin: 20px 0;
+    }
+    .About-us-left h3{
+        font-size: 25px;
+        width: 100%;
+        font-family: Poppins-Bold;
+        line-height: 3rem;
+    }
+    .imgbox{
+        width: 100%;
+    }
+    .imgbox img{
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+    }
+    .About-us-right{
+        width: 50%;
+        padding: 65px;
+    }
+    .About-us-right h5{
+        font-size: 13px;
+        font-weight: normal;
+        font-family: Poppins-Regular;
+        line-height: 2rem;
+    }
+    .service-box{
+        margin: 90px auto;
+    }
+    .services{
+        margin: 14px 0;
+    }
+    .services img{
+        width: 9px;
+    }
+    .services span{
+        font-size: 12px;
+        font-family: Poppins-Regular;
+    }
+    .About-us-greenbox{
+        position: absolute;
+        bottom: -35px;
+        right: 80px;
+        width: 450px;
+        height: auto;
+        background:#D5FA52 ;
+        border-radius: 10px;
+    }
+    .greenbox-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px 30px;
+        text-align: center;
+    }
+    .greenbox-content li{
+        width: 33%;
+    }
+    .greenbox-content li:nth-child(2){
+        border-left: #000 1px solid;
+        border-right: #000 1px solid;
+    }
+    .greenbox-content li h5{
+        font-size: 20px;
+        margin: 0;
+    }
+    .greenbox-content li p{
+        font-size: 12px;
+        margin: 10px;
+    }
+}
+/* ------------------------------------------------------------------768px responsive-----About us-----*/
+@media all and (max-width: 768px){
+    #About-us{
+        background: #FFFCF3;
+        height: auto;
+        padding: 50px 0;
+    }
+    .container.About-us{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+    .About-us-left{
+        width: 50%;
+    }
+    .About-us-left h5{
+        font-size: 15px;
+        color: #9b9494;
+        margin: 20px 0;
+    }
+    .About-us-left h3{
+        font-size: 25px;
+        width: 100%;
+        font-family: Poppins-Bold;
+        line-height: 3rem;
+    }
+    .imgbox{
+        width: 100%;
+    }
+    .imgbox img{
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+    }
+    .About-us-right{
+        width: 50%;
+        padding: 65px;
+    }
+    .About-us-right h5{
+        font-size: 13px;
+        font-weight: normal;
+        font-family: Poppins-Regular;
+        line-height: 2rem;
+    }
+    .service-box{
+        margin: 90px auto;
+    }
+    .services{
+        margin: 14px 0;
+    }
+    .services img{
+        width: 9px;
+    }
+    .services span{
+        font-size: 12px;
+        font-family: Poppins-Regular;
+    }
+    .About-us-greenbox{
+        position: absolute;
+        bottom: -35px;
+        right: 30px;
+        width: 400px;
+        height: auto;
+        background:#D5FA52 ;
+        border-radius: 10px;
+    }
+    .greenbox-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px 30px;
+        text-align: center;
+    }
+    .greenbox-content li{
+        width: 33%;
+    }
+    .greenbox-content li:nth-child(2){
+        border-left: #000 1px solid;
+        border-right: #000 1px solid;
+    }
+    .greenbox-content li h5{
+        font-size: 16px;
+        margin: 0;
+    }
+    .greenbox-content li p{
+        font-size: 10px;
+        margin: 10px;
+    }
+}
+/* ------------------------------------------------------------------640px responsive-----About us-----*/
+@media all and (max-width: 640px){
+    #About-us{
+        background: #FFFCF3;
+        height: auto;
+        padding: 50px 0;
+    }
+    .container.About-us{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+    .About-us-left{
+        width: 90%;
+        margin: auto;
+    }
+    .About-us-left h5{
+        font-size: 15px;
+        color: #9b9494;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .About-us-left h3{
+        font-size: 25px;
+        width: 100%;
+        font-family: Poppins-Bold;
+        line-height: 3rem;
+        text-align: center;
+    }
+    .imgbox{
+        width: 100%;
+    }
+    .imgbox img{
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+    }
+    .About-us-right{
+        width: 90%;
+        padding: 65px;
+        margin: auto;
+    }
+    .About-us-right h5{
+        font-size: 13px;
+        font-weight: normal;
+        font-family: Poppins-Regular;
+        line-height: 2rem;
+    }
+    .service-box{
+        margin: 90px auto;
+    }
+    .services{
+        margin: 14px 0;
+    }
+    .services img{
+        width: 9px;
+    }
+    .services span{
+        font-size: 12px;
+        font-family: Poppins-Regular;
+    }
+    .About-us-greenbox{
+        position: absolute;
+        bottom: -35px;
+        right: 75px;
+        width: 400px;
+        height: auto;
+        background:#D5FA52 ;
+        border-radius: 10px;
+    }
+    .greenbox-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px 30px;
+        text-align: center;
+    }
+    .greenbox-content li{
+        width: 33%;
+    }
+    .greenbox-content li:nth-child(2){
+        border-left: #000 1px solid;
+        border-right: #000 1px solid;
+    }
+    .greenbox-content li h5{
+        font-size: 16px;
+        margin: 0;
+    }
+    .greenbox-content li p{
+        font-size: 10px;
+        margin: 10px;
+    }
+}
+/* ------------------------------------------------------------------480px responsive-----About us-----*/
+@media all and (max-width: 480px){
+    #About-us{
+        background: #FFFCF3;
+        height: auto;
+        padding: 50px 0;
+    }
+    .container.About-us{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+    .About-us-left{
+        width: 90%;
+        margin: auto;
+    }
+    .About-us-left h5{
+        font-size: 15px;
+        color: #9b9494;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .About-us-left h3{
+        font-size: 25px;
+        width: 100%;
+        font-family: Poppins-Bold;
+        line-height: 3rem;
+        text-align: center;
+    }
+    .imgbox{
+        width: 100%;
+    }
+    .imgbox img{
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+    }
+    .About-us-right{
+        width: 90%;
+        padding: 65px;
+        margin: auto;
+    }
+    .About-us-right h5{
+        font-size: 13px;
+        font-weight: normal;
+        font-family: Poppins-Regular;
+        line-height: 2rem;
+    }
+    .service-box{
+        margin: 90px auto;
+    }
+    .services{
+        margin: 14px 0;
+    }
+    .services img{
+        width: 9px;
+    }
+    .services span{
+        font-size: 12px;
+        font-family: Poppins-Regular;
+    }
+    .About-us-greenbox{
+        position: absolute;
+        bottom: -35px;
+        right: 5px;
+        width: 400px;
+        height: auto;
+        background:#D5FA52 ;
+        border-radius: 10px;
+    }
+    .greenbox-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px 30px;
+        text-align: center;
+    }
+    .greenbox-content li{
+        width: 33%;
+    }
+    .greenbox-content li:nth-child(2){
+        border-left: #000 1px solid;
+        border-right: #000 1px solid;
+    }
+    .greenbox-content li h5{
+        font-size: 16px;
+        margin: 0;
+    }
+    .greenbox-content li p{
+        font-size: 10px;
+        margin: 10px;
+    }
+}
+/* ------------------------------------------------------------------360px responsive-----About us-----*/
+@media all and (max-width: 360px){
+    #About-us{
+        background: #FFFCF3;
+        height: auto;
+        padding: 50px 0;
+    }
+    .container.About-us{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+    .About-us-left{
+        width: 90%;
+        margin: auto;
+    }
+    .About-us-left h5{
+        font-size: 15px;
+        color: #9b9494;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .About-us-left h3{
+        font-size: 25px;
+        width: 100%;
+        font-family: Poppins-Bold;
+        line-height: 3rem;
+        text-align: center;
+    }
+    .imgbox{
+        width: 100%;
+    }
+    .imgbox img{
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+    }
+    .About-us-right{
+        width: 100%;
+        padding: 10px;
+        margin: auto;
+    }
+    .About-us-right h5{
+        font-size: 13px;
+        font-weight: normal;
+        font-family: Poppins-Regular;
+        line-height: 2rem;
+    }
+    .service-box{
+        margin: 90px auto;
+    }
+    .services{
+        margin: 14px 0;
+    }
+    .services img{
+        width: 9px;
+    }
+    .services span{
+        font-size: 12px;
+        font-family: Poppins-Regular;
+    }
+    .About-us-greenbox{
+        position: absolute;
+        bottom: -35px;
+        right: -19px;
+        width: 350px;
+        height: auto;
+        background:#D5FA52 ;
+        border-radius: 10px;
+    }
+    .greenbox-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px 30px;
+        text-align: center;
+    }
+    .greenbox-content li{
+        width: 33%;
+    }
+    .greenbox-content li:nth-child(2){
+        border-left: #000 1px solid;
+        border-right: #000 1px solid;
+    }
+    .greenbox-content li h5{
+        font-size: 14px;
+        margin: 0;
+    }
+    .greenbox-content li p{
+        font-size: 8px;
+        margin: 10px;
+    }
+}
+/* ------------------------------------------------------------------320px responsive-----About us-----*/
+@media all and (max-width: 320px){
+    #About-us{
+        background: #FFFCF3;
+        height: auto;
+        padding: 50px 0;
+    }
+    .container.About-us{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+    .About-us-left{
+        width: 90%;
+        margin: auto;
+    }
+    .About-us-left h5{
+        font-size: 15px;
+        color: #9b9494;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .About-us-left h3{
+        font-size: 18px;
+        width: 100%;
+        font-family: Poppins-Bold;
+        line-height: 3rem;
+        text-align: center;
+    }
+    .imgbox{
+        width: 100%;
+    }
+    .imgbox img{
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+    }
+    .About-us-right{
+        width: 100%;
+        padding: 10px;
+        margin: auto;
+    }
+    .About-us-right h5{
+        font-size: 13px;
+        font-weight: normal;
+        font-family: Poppins-Regular;
+        line-height: 2rem;
+    }
+    .service-box{
+        margin: 90px auto;
+    }
+    .services{
+        margin: 14px 0;
+    }
+    .services img{
+        width: 9px;
+    }
+    .services span{
+        font-size: 12px;
+        font-family: Poppins-Regular;
+    }
+    .About-us-greenbox{
+        position: absolute;
+        bottom: -35px;
+        right: 5px;
+        width: 250px;
+        height: auto;
+        background:#D5FA52 ;
+        border-radius: 10px;
+    }
+    .greenbox-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+        text-align: center;
+        margin: auto;
+    }
+    .greenbox-content li{
+        width: 33%;
+    }
+    .greenbox-content li:nth-child(2){
+        border-left: #000 1px solid;
+        border-right: #000 1px solid;
+    }
+    .greenbox-content li h5{
+        font-size: 14px;
+        margin: 0;
+    }
+    .greenbox-content li p{
+        font-size: 8px;
+        margin: 10px;
+    }
 }
