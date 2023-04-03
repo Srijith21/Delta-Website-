@@ -1,0 +1,1138 @@
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(./Assets/Fonts/Poppins/poppins-regular-webfont.woff) format("woff"),
+    url(./Assets/Fonts/Poppins/poppins-regular-webfont.woff2) format("woff2");
+  }
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(./Assets/Fonts/Poppins/poppins-bold-webfont.woff) format("woff"),
+    url(./Assets/Fonts/Poppins/poppins-bold-webfont.woff2) format("woff2");
+  }
+h1{
+    font-family: Inter-Bold;
+}
+a{
+    font-family: Poppins-Regular;
+    text-decoration: none;
+}
+p{
+    font-family: Poppins-Regular;
+    line-height: 1.5rem;
+}
+ul li{
+    list-style: none;
+}
+.container {
+    width: 90%;
+    margin: auto;
+  }
+.keyword{
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    color: #8873EF;
+    font-size: 20px;
+    transform: rotate(-22deg);
+    font-family: Poppins-Regular;
+}
+/* ///////////////////////////////////////////////////////////////////////////<-- header-bar --> */
+.header-bar{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 0 auto;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.navbar ul li{
+    margin:0 15px ;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar ul li a{
+    color: #000;
+    font-weight: bold;
+    position: relative;
+}
+.navbar ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition:0.5s;
+}
+.navbar ul li a:hover::after{
+    width: 100%;
+    
+}
+
+.signing{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+
+}
+.signing a{
+    color: #000;
+}
+.sign-in{
+    margin: auto;
+}
+
+.sign-up{
+    margin: 0 15px;
+    border: #000 1px solid;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
+@media all and (max-width: 640px) {
+    .header-bar{
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        width: 100%;
+        height: 80px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #fff;
+        padding: 0 auto;
+    }
+    .logo{
+        display: none;
+    }
+    .navbar ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .navbar ul li{
+        margin:0 10px ;
+        list-style: none;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .navbar ul li a{
+        color: #000;
+        font-weight: bold;
+        position: relative;
+    }
+    .navbar ul li a::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        background: #000;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition:0.5s;
+    }
+    .navbar ul li a:hover::after{
+        width: 100%;
+        
+    }
+    
+    .signing{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: bold;
+    
+    }
+    .signing a{
+        color: #000;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .sign-in{
+        margin: auto;
+    }
+    
+    .sign-up{
+        margin: 0 15px;
+        border: #000 1px solid;
+        border-radius: 5px;
+        padding: 10px 30px;
+    }   
+}
+/* ------------------------------------------------------------------768px responsive-----Header-----*/
+@media all and (max-width: 768px) {
+    .header-bar{
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        width: 100%;
+        height: 80px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #fff;
+        padding: 0 auto;
+    }
+    .logo{
+        display: none;
+    }
+    .navbar ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .navbar ul li{
+        margin:0 10px ;
+        list-style: none;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .navbar ul li a{
+        color: #000;
+        font-weight: bold;
+        position: relative;
+    }
+    .navbar ul li a::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        background: #000;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition:0.5s;
+    }
+    .navbar ul li a:hover::after{
+        width: 100%;
+    }
+    .navbar ul li a:active{
+        color: red;
+    }
+    .signing{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: bold;
+    
+    }
+    .signing a{
+        color: #000;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .sign-in{
+        margin: auto;
+    }
+    
+    .sign-up{
+        margin: 0 15px;
+        border: #000 1px solid;
+        border-radius: 5px;
+        padding: 10px 30px;
+    }   
+}
+/* ------------------------------------------------------------------640px responsive-----Header-----*/
+@media all and (max-width: 640px) {
+    .header-bar{
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        width: 100%;
+        height: 80px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #fff;
+        padding: 0 auto;
+    }
+    .logo{
+        display: none;
+    }
+    .navbar ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .navbar ul li{
+        margin:0 10px ;
+        list-style: none;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .navbar ul li a{
+        color: #000;
+        font-weight: bold;
+        position: relative;
+    }
+    .navbar ul li a::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        background: #000;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition:0.5s;
+    }
+    .navbar ul li a:hover::after{
+        width: 100%;
+        
+    }
+    
+    .signing{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: bold;
+    
+    }
+    .signing a{
+        color: #000;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .sign-in{
+        margin: auto;
+    }
+    
+    .sign-up{
+        margin: 0 15px;
+        border: #000 1px solid;
+        border-radius: 5px;
+        padding: 10px 30px;
+    }   
+}
+/* ------------------------------------------------------------------480px responsive-----Header-----*/
+
+@media all and (max-width: 480px) {
+    .header-bar{
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        margin:  auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        padding: 0 0 10px 0;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px  auto;
+        width: 90%;
+    }
+    .header-logo{
+        width: 70%;
+        margin: auto;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .navbar ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin:auto;
+        padding: 0;
+    }
+    .navbar ul li{
+        margin: 0;
+    }
+    .navbar ul li a{
+        margin:auto 10px;
+        font-size: 10px;
+    }
+    .signing{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: bold;
+        width: 30%;
+        margin: auto;
+        padding: 0;
+    }
+    .signing a{
+        color: #000;
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .sign-in{
+        margin: auto;
+    }
+    
+    .sign-up{
+        margin: 0 8px;
+        border: #000 1px solid;
+        border-radius: 5px;
+        padding: 3px 8px;
+    }   
+}
+/* ------------------------------------------------------------------360px responsive-----Header-----*/
+
+@media all and (max-width: 360px) {
+    .header-bar{
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        margin:  auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        padding: 0 0 10px 0;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px  auto;
+        width: 90%;
+    }
+    .header-logo{
+        width: 70%;
+        margin: auto;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .navbar ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin:auto;
+        padding: 0;
+    }
+    .navbar ul li{
+        margin: 0;
+    }
+    .navbar ul li a{
+        margin:auto 10px;
+        font-size: 10px;
+    }
+    .signing{
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: bold;
+        width: 30%;
+        margin: auto;
+        padding: 0;
+    }
+    .signing a{
+        color: #000;
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .sign-in{
+        margin: auto;
+    }
+    
+    .sign-up{
+        margin: 0 8px;
+        border: #000 1px solid;
+        border-radius: 5px;
+        padding: 3px 8px;
+    }   
+}
+/* ------------------------------------------------------------------320px responsive-----Header-----*/
+@media all and (max-width: 320px) {
+    .header-bar{
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        margin:  auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        padding: 0 0 10px 0;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px  auto;
+        width: 90%;
+    }
+    .header-logo{
+        width: 70%;
+        margin: auto;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .navbar ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin:auto;
+        padding: 0;
+    }
+    .navbar ul li{
+        margin: 0;
+    }
+    .navbar ul li a{
+        margin:auto 10px;
+        font-size: 10px;
+    }
+    .signing{
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: bold;
+        width: 30%;
+        margin: auto;
+        padding: 0;
+    }
+    .signing a{
+        color: #000;
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .sign-in{
+        margin: auto;
+    }
+    
+    .sign-up{
+        margin: 0 8px;
+        border: #000 1px solid;
+        border-radius: 5px;
+        padding: 3px 8px;
+    }   
+}
+/* ///////////////////////////////////////////////////////////////////////////<-- Spotlight --> */
+#spotlight{
+    margin-top: 100px;
+}
+.container.spotlight{
+    display: flex;
+    justify-content: space-between;
+}
+.spotlight-left{
+    width: 50%;
+}
+.main-head{
+    font-size:40px;
+    font-weight: 500;
+    width: 50%;
+    line-height: 3.5rem;
+    font-family: Poppins-Bold;
+}
+.spotlight-description{
+    font-size: 15px;
+    font-weight: 500;
+    width: 50%;
+}
+.button-box{  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+    margin: 40px 0;
+}
+
+.get-started{
+    background: #000;
+    padding: 10px 30px;
+    color: #fff;
+    margin: auto 10px ;
+    font-size: 15px;
+}
+.how-it-works{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+.how-it-works-text{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Poppins-Bold;
+    margin: auto;
+}
+.play-icon{
+    width: 30px;
+    height: auto;
+    margin: auto;
+}
+
+.spotlight-right{
+    width: auto;
+}
+.landing-pic{
+    display: block;
+    width: 75%;
+    height: auto;
+    margin: auto;
+}
+/* ------------------------------------------------------------------1440px responsive-----spotlight-----*/
+
+@media all and (max-width: 1440px){
+    #spotlight{
+        margin-top: 100px;
+    }
+    .container.spotlight{
+        display: flex;
+        justify-content: space-between;
+    }
+    .spotlight-left{
+        width: 50%;
+    }
+    .main-head{
+        font-size:40px;
+        font-weight: 500;
+        width: 50%;
+        line-height: 3.5rem;
+        font-family: Poppins-Bold;
+    }
+    .spotlight-description{
+        font-size: 15px;
+        font-weight: 500;
+        width: 50%;
+    }
+    .button-box{  
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 55%;
+        margin: 40px 0;
+    }
+    
+    .get-started{
+        background: #000;
+        padding: 10px 30px;
+        color: #fff;
+        margin: auto 10px ;
+        font-size: 15px;
+    }
+    .how-it-works{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 40%;
+    }
+    .play-icon{
+        width: 30px;
+        height: auto;
+        margin: auto;
+    }
+    
+    .spotlight-right{
+        width: auto;
+    }
+    .landing-pic{
+        display: block;
+        width: 75%;
+        height: auto;
+        margin: auto;
+    }
+}
+/* ------------------------------------------------------------------1280px responsive-----spotlight-----*/
+
+@media all and (max-width: 1280px){
+    #spotlight{
+        margin-top: 100px;
+    }
+    .container.spotlight{
+        display: flex;
+        justify-content: space-between;
+    }
+    .spotlight-left{
+        width: 50%;
+    }
+    .main-head{
+        font-size:40px;
+        font-weight: 500;
+        width: 60%;
+        line-height: 3.5rem;
+        font-family: Poppins-Bold;
+    }
+    .spotlight-description{
+        font-size: 15px;
+        font-weight: 500;
+        width: 75%;
+    }
+    .button-box{  
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 65%;
+        margin: 40px 0;
+    }
+    
+    .get-started{
+        background: #000;
+        padding: 10px 30px;
+        color: #fff;
+        margin: auto 10px ;
+        font-size: 15px;
+    }
+    .how-it-works{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 40%;
+    }
+    .play-icon{
+        width: 30px;
+        height: auto;
+        margin: auto;
+    }
+    
+    .spotlight-right{
+        width: auto;
+    }
+    .landing-pic{
+        display: block;
+        width: 75%;
+        height: auto;
+        margin: auto;
+    }
+}
+/* ------------------------------------------------------------------980px responsive-----spotlight-----*/
+
+@media all and (max-width: 980px){
+    #spotlight{
+        margin-top: 100px;
+    }
+    .container.spotlight{
+        display: flex;
+        justify-content: space-between;
+    }
+    .spotlight-left{
+        width: 50%;
+    }
+    .main-head{
+        font-size:40px;
+        font-weight: 500;
+        width: 90%;
+        line-height: 3.5rem;
+        font-family: Poppins-Bold;
+    }
+    .spotlight-description{
+        font-size: 15px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .button-box{  
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin: 40px 0;
+    }
+    
+    .get-started{
+        background: #000;
+        padding: 10px 30px;
+        color: #fff;
+        margin: auto 10px ;
+        font-size: 15px;
+    }
+    .how-it-works{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 40%;
+    }
+    .play-icon{
+        width: 30px;
+        height: auto;
+        margin: auto;
+    }
+    
+    .spotlight-right{
+        width: auto;
+    }
+    .landing-pic{
+        display: block;
+        width: 75%;
+        height: auto;
+        margin: auto;
+    }
+}
+/* ------------------------------------------------------------------768px responsive-----spotlight-----*/
+
+@media all and (max-width: 768px){
+    #spotlight{
+        margin-top: 100px;
+    }
+    .container.spotlight{
+        display: flex;
+        justify-content: space-between;
+    }
+    .spotlight-left{
+        width: 65%;
+    }
+    .main-head{
+        font-size:28px;
+        font-weight: 500;
+        width: 100%;
+        line-height: 3.5rem;
+        font-family: Poppins-Bold;
+    }
+    .spotlight-description{
+        font-size: 13px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .button-box{  
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin: 40px 0;
+    }
+    
+    .get-started{
+        background: #000;
+        padding: 8px 25px;
+        color: #fff;
+        margin: auto 8px ;
+        font-size: 12px;
+    }
+    .how-it-works{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 50%;
+    }
+    .how-it-works-text{
+        font-size: 13px;
+    }
+    .play-icon{
+        width: 30px;
+        height: auto;
+        margin: auto;
+    }
+    
+    .spotlight-right{
+        width: auto;
+    }
+    .landing-pic{
+        display: block;
+        width: 75%;
+        height: auto;
+        margin: auto;
+    }
+}
+/* ------------------------------------------------------------------640px responsive-----spotlight-----*/
+
+@media all and (max-width: 640px){
+    #spotlight{
+        margin-top: 100px;
+    }
+    .container.spotlight{
+        display: flex;
+        justify-content: space-between;
+    }
+    .spotlight-left{
+        width: 75%;
+    }
+    .main-head{
+        font-size:25px;
+        font-weight: 500;
+        width: 100%;
+        line-height: 3.5rem;
+        font-family: Poppins-Bold;
+    }
+    .spotlight-description{
+        font-size: 11px;
+        font-weight: 500;
+        width: 100%;
+    }
+    .button-box{  
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin: 40px 0;
+    }
+    
+    .get-started{
+        background: #000;
+        padding: 8px 25px;
+        color: #fff;
+        margin: auto 8px ;
+        font-size: 12px;
+    }
+    .how-it-works{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 50%;
+    }
+    .how-it-works-text{
+        font-size: 13px;
+    }
+    .play-icon{
+        width: 30px;
+        height: auto;
+        margin: auto;
+    }
+    
+    .spotlight-right{
+        width: auto;
+    }
+    .landing-pic{
+        display: block;
+        width: 75%;
+        height: auto;
+        margin: auto;
+    }
+}
+/* ------------------------------------------------------------------480px responsive-----spotlight-----*/
+
+@media all and (max-width: 480px){
+    #spotlight{
+        margin-top: 100px;
+    }
+    .container.spotlight{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .spotlight-left{
+        width: 100%;
+    }
+    .main-head{
+        font-size:35px;
+        font-weight: 500;
+        width: 70%;
+        margin: 20px auto;
+        line-height: 3.5rem;
+        font-family: Poppins-Bold;
+    }
+    .spotlight-description{
+        font-size: 11px;
+        font-weight: 500;
+        width: 100%;
+        margin: 15px auto;
+    }
+    .button-box{  
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 65%;
+        margin: 40px auto;
+    }
+    
+    .get-started{
+        background: #000;
+        padding: 8px 25px;
+        color: #fff;
+        margin: auto 8px ;
+        font-size: 12px;
+    }
+    .how-it-works{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 50%;
+    }
+    .how-it-works-text{
+        font-size: 13px;
+    }
+    .play-icon{
+        width: 30px;
+        height: auto;
+        margin: auto;
+    }
+    
+    .spotlight-right{
+        width: 80%;
+        margin: auto;
+    }
+    .landing-pic{
+        display: block;
+        width: 75%;
+        height: auto;
+        margin: auto;
+    }
+}
+/* ------------------------------------------------------------------360px responsive-----spotlight-----*/
+
+@media all and (max-width: 360px){
+    #spotlight{
+        margin-top: 100px;
+    }
+    .container.spotlight{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .spotlight-left{
+        width: 100%;
+    }
+    .main-head{
+        font-size:25px;
+        font-weight: 500;
+        width: 90%;
+        margin: 20px auto;
+        line-height: 3.5rem;
+        font-family: Poppins-Bold;
+        text-align: center;
+    }
+    .spotlight-description{
+        font-size: 12px;
+        font-weight: 500;
+        width: 80%;
+        margin: 15px auto;
+        text-align: center;
+    }
+    .button-box{  
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        margin: 40px auto;
+    }
+    
+    .get-started{
+        background: #000;
+        padding: 8px 25px;
+        color: #fff;
+        margin: auto 8px ;
+        font-size: 12px;
+    }
+    .how-it-works{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 50%;
+    }
+    .how-it-works-text{
+        font-size: 13px;
+    }
+    .play-icon{
+        width: 30px;
+        height: auto;
+        margin: auto;
+    }
+    
+    .spotlight-right{
+        width: 80%;
+        margin: auto;
+    }
+    .landing-pic{
+        display: block;
+        width: 75%;
+        height: auto;
+        margin: auto;
+    }
+}
+/* ------------------------------------------------------------------320px responsive-----spotlight-----*/
+
+@media all and (max-width: 320px){
+    #spotlight{
+        margin-top: 100px;
+    }
+    .container.spotlight{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .spotlight-left{
+        width: 100%;
+    }
+    .main-head{
+        font-size:25px;
+        font-weight: 500;
+        width: 100%;
+        margin: 20px auto;
+        line-height: 3.5rem;
+        font-family: Poppins-Bold;
+        text-align: center;
+    }
+    .spotlight-description{
+        font-size: 11px;
+        font-weight: 500;
+        width: 100%;
+        margin: 15px auto;
+        text-align: center;
+    }
+    .button-box{  
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin: 40px auto;
+    }
+    
+    .get-started{
+        background: #000;
+        padding: 8px 25px;
+        color: #fff;
+        margin: auto 8px ;
+        font-size: 12px;
+    }
+    .how-it-works{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 50%;
+    }
+    .how-it-works-text{
+        font-size: 13px;
+    }
+    .play-icon{
+        width: 30px;
+        height: auto;
+        margin: auto;
+    }
+    
+    .spotlight-right{
+        width: 80%;
+        margin: auto;
+    }
+    .landing-pic{
+        display: block;
+        width: 75%;
+        height: auto;
+        margin: auto;
+    }
+}

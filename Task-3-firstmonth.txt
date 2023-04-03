@@ -1,0 +1,15 @@
+Font -Poppins
+Link :https://fonts.google.com/specimen/Poppins
+
+Font size
+H1-64
+H2-50
+H3-48
+H4-44
+H5-26
+
+Colours :
+Green -D5FA52
+LIGHT-YELLOW: FFFCF3
+CARD Color :D5FA52
+
