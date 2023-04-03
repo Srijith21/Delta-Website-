@@ -1136,3 +1136,37 @@ ul li{
         margin: auto;
     }
 }
+
+/* ///////////////////////////////////////////////////////////////////////////<-- Spotlight-Bottom --> */
+#Spotlight-Bottom{
+    margin: 40px 0;
+}
+.container.Spotlight-Bottom{
+}
+.spotlight-bottom-top{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.spotlight-bottom-top h3{
+    color: #555;
+    font-size: 18px;
+}
+.spotlight-bottom-top h3 span{
+    color: #000;
+    font-size: 18px;
+    margin: 0 5px;
+}
+.spotlight-bottom-bottom{
+    width: 80%;
+    margin: auto;
+}
+.spotlight-bottom-bottom ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px auto;
+    width: 90%;
+}
+.spotlight-bottom-bottom ul li{
+    width: 25%;
+}
