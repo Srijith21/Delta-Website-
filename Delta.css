@@ -2184,3 +2184,737 @@ ul li{
     text-decoration: underline;
     font-weight: bold;
 }
+.bottom-tab-services{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+.left-bottom-tab-services{
+}
+.left-bottom-tab-services h3{
+    width: 60%;
+    font-size: 25px;
+    font-family: Poppins-Bold;
+    text-align: left;
+    line-height: 2rem;
+}
+.right-bottom-tab-services {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+.right-bottom-tab-services button{
+    background: #000;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    margin: auto;
+}
+/* ------------------------------------------------------------------1280px responsive-----SERVICES -----*/
+@media all and (max-width: 1280px){
+    #Services-section{
+        margin: auto;
+        height: auto;
+    }
+    .top-Services{
+        width: 100%;
+        margin: auto;
+    }
+    .top-Services h5{
+        font-size: 15px;
+        color: #9b9494;
+        margin: 20px 0;
+    
+    }
+    .top-Services h3{
+        font-size: 35px;
+        font-weight: bold;
+        width: 20%;
+        font-family: Poppins-Regular;
+    }
+    .bottom-Services{
+    }
+    .ul-box{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 75%;
+        margin: 50px auto;
+        padding: 0;
+    }
+    .li-box.green{
+        background: #D5FA52;
+        height: 250px;
+        margin: -10px auto auto 10px;
+        border: none;
+    }
+    .li-box{
+        width: 26%;
+        border: 2px #9b9494 solid;
+        border-radius: 15px;
+        padding: 15px 15px 40px;
+        height: auto;
+        margin: 40px auto auto 10px;
+    }
+    .li-box img{
+        width: 50px;
+        height: auto;
+    }
+    .li-box h5{
+        font-size: 14px;
+        font-weight: bold;
+        font-family: Poppins-Bold;
+    }
+    .li-box p{
+        width: 90%;
+        margin: 15px 0;
+    }
+    .li-box a{
+        color: #000;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    .bottom-tab-services{
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: auto;
+    }
+    .left-bottom-tab-services{
+    }
+    .left-bottom-tab-services h3{
+        width: 60%;
+        font-size: 25px;
+        font-family: Poppins-Bold;
+        text-align: left;
+        line-height: 2rem;
+    }
+    .right-bottom-tab-services {
+        display: flex;
+        justify-content: center;
+        width: 25%;
+    }
+    .right-bottom-tab-services button{
+        background: #000;
+        padding: 10px 30px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+        margin: auto;
+    }
+}
+/* ------------------------------------------------------------------980px responsive-----SERVICES -----*/
+@media all and (max-width: 980px){
+    #Services-section{
+        margin: auto;
+        height: auto;
+    }
+    .top-Services{
+        width: 100%;
+        margin: auto;
+    }
+    .top-Services h5{
+        font-size: 15px;
+        color: #9b9494;
+        margin: 20px 0;
+    
+    }
+    .top-Services h3{
+        font-size: 35px;
+        font-weight: bold;
+        width: 40%;
+        font-family: Poppins-Regular;
+    }
+    .bottom-Services{
+    }
+    .ul-box{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 50px auto;
+        padding: 0;
+    }
+    .li-box.green{
+        background: #D5FA52;
+        height: 250px;
+        margin: -10px auto auto 10px;
+        border: none;
+    }
+    .li-box{
+        width: 26%;
+        border: 2px #9b9494 solid;
+        border-radius: 15px;
+        padding: 15px 15px 40px;
+        height: auto;
+        margin: 40px auto auto 10px;
+    }
+    .li-box img{
+        width: 50px;
+        height: auto;
+    }
+    .li-box h5{
+        font-size: 13px;
+        font-weight: bold;
+        font-family: Poppins-Bold;
+    }
+    .li-box p{
+        width: 90%;
+        margin: 15px 0;
+        font-size: 12px;
+    }
+    .li-box a{
+        color: #000;
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .bottom-tab-services{
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: auto;
+    }
+    .left-bottom-tab-services{
+        width: 75%;
+    }
+    .left-bottom-tab-services h3{
+        width: 60%;
+        font-size: 22px;
+        font-family: Poppins-Bold;
+        text-align: left;
+        line-height: 2rem;
+    }
+    .right-bottom-tab-services {
+        display: flex;
+        justify-content: center;
+        width: 25%;
+    }
+    .right-bottom-tab-services button{
+        background: #000;
+        padding: 10px 30px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+        margin: auto;
+    }
+}
+/* ------------------------------------------------------------------768px responsive-----SERVICES -----*/
+@media all and (max-width: 768px){
+    #Services-section{
+        margin: auto;
+        height: auto;
+    }
+    .top-Services{
+        width: 100%;
+        margin: auto;
+    }
+    .top-Services h5{
+        font-size: 14px;
+        color: #9b9494;
+        margin: 20px 0;
+    
+    }
+    .top-Services h3{
+        font-size: 33px;
+        font-weight: bold;
+        width: 40%;
+        font-family: Poppins-Regular;
+    }
+    .bottom-Services{
+    }
+    .ul-box{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 50px auto;
+        padding: 0;
+    }
+    .li-box.green{
+        background: #D5FA52;
+        height: 250px;
+        margin: -10px auto auto 10px;
+        border: none;
+    }
+    .li-box{
+        width: 26%;
+        border: 2px #9b9494 solid;
+        border-radius: 15px;
+        padding: 15px 15px 40px;
+        height: auto;
+        margin: 40px auto auto 10px;
+    }
+    .li-box img{
+        width: 50px;
+        height: auto;
+    }
+    .li-box h5{
+        font-size: 13px;
+        font-weight: bold;
+        font-family: Poppins-Bold;
+    }
+    .li-box p{
+        width: 90%;
+        margin: 15px 0;
+        font-size: 12px;
+    }
+    .li-box a{
+        color: #000;
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    
+    .bottom-tab-services{
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: auto;
+    }
+    .left-bottom-tab-services{
+        width: 60%;
+    }
+    .left-bottom-tab-services h3{
+        width: 90%;
+        font-size: 22px;
+        font-family: Poppins-Bold;
+        text-align: left;
+        line-height: 2rem;
+    }
+    .right-bottom-tab-services {
+        display: flex;
+        justify-content: center;
+        width: 30%;
+    }
+    .right-bottom-tab-services button{
+        background: #000;
+        padding: 10px 30px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+        margin: auto;
+    }
+}
+/* ------------------------------------------------------------------640px responsive-----SERVICES -----*/
+@media all and (max-width: 640px){
+    #Services-section{
+        margin: auto;
+        height: auto;
+    }
+    .top-Services{
+        width: 100%;
+        margin: auto;
+    }
+    .top-Services h5{
+        font-size: 14px;
+        color: #9b9494;
+        margin: 20px 0;
+    
+    }
+    .top-Services h3{
+        font-size: 33px;
+        font-weight: bold;
+        width: 40%;
+        font-family: Poppins-Regular;
+    }
+    .bottom-Services{
+    }
+    .ul-box{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 50px auto;
+        padding: 0;
+    }
+    .li-box.green{
+        background: #D5FA52;
+        height: 250px;
+        margin: -10px auto auto 10px;
+        border: none;
+    }
+    .li-box{
+        width: 25%;
+        border: 2px #9b9494 solid;
+        border-radius: 15px;
+        padding: 15px 15px 40px;
+        height: 200px;
+        margin: 40px auto auto 10px;
+    }
+    .li-box img{
+        width: 50px;
+        height: auto;
+    }
+    .li-box h5{
+        font-size: 13px;
+        font-weight: bold;
+        font-family: Poppins-Bold;
+    }
+    .li-box p{
+        width: 90%;
+        margin: 15px 0;
+        font-size: 12px;
+    }
+    .li-box a{
+        color: #000;
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .bottom-tab-services{
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
+    }
+    .left-bottom-tab-services{
+        width: 60%;
+    }
+    .left-bottom-tab-services h3{
+        width: 100%;
+        font-size: 19px;
+        font-family: Poppins-Bold;
+        text-align: left;
+        line-height: 2rem;
+    }
+    .right-bottom-tab-services {
+        display: flex;
+        justify-content: center;
+        width: 30%;
+    }
+    .right-bottom-tab-services button{
+        background: #000;
+        padding: 10px 30px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+        margin: auto;
+    }
+}
+/* ------------------------------------------------------------------480px responsive-----SERVICES -----*/
+@media all and (max-width: 480px){
+    #Services-section{
+        margin: auto;
+        height: auto;
+    }
+    .top-Services{
+        width: 100%;
+        margin: auto;
+    }
+    .top-Services h5{
+        font-size: 14px;
+        color: #9b9494;
+        margin: 20px 0;
+    
+    }
+    .top-Services h3{
+        font-size: 33px;
+        font-weight: bold;
+        width: 40%;
+        font-family: Poppins-Regular;
+    }
+    .bottom-Services{
+    }
+    .ul-box{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 50px auto;
+        padding: 0;
+    }
+    .li-box.green{
+        background: #D5FA52;
+        height: 200px;
+        margin: 40px auto auto 10px;
+        padding: 15px 15px 40px;
+        border: none;
+    }
+    .li-box{
+        width: 75%;
+        border: 2px #9b9494 solid;
+        border-radius: 15px;
+        padding: 15px 15px 40px;
+        height: 200px;
+        margin: 40px auto auto 10px;
+    }
+    .li-box img{
+        width: 50px;
+        height: auto;
+        margin: auto;
+    }
+    .li-box h5{
+        font-size: 13px;
+        font-weight: bold;
+        font-family: Poppins-Bold;
+    }
+    .li-box p{
+        width: 90%;
+        margin: 15px 0;
+        font-size: 12px;
+    }
+    .li-box a{
+        color: #000;
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .bottom-tab-services{
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
+    }
+    .left-bottom-tab-services{
+        width: 60%;
+    }
+    .left-bottom-tab-services h3{
+        width: 100%;
+        font-size: 15px;
+        font-family: Poppins-Bold;
+        text-align: left;
+        line-height: 2rem;
+    }
+    .right-bottom-tab-services {
+        display: flex;
+        justify-content: center;
+        width: 30%;
+    }
+    .right-bottom-tab-services button{
+        background: #000;
+        padding: 10px 20px;
+        color: #fff;
+        font-size: 8px;
+        font-weight: bold;
+        margin: auto;
+    }
+}
+/* ------------------------------------------------------------------360px responsive-----SERVICES -----*/
+@media all and (max-width: 360px){
+    #Services-section{
+        margin: auto;
+        height: auto;
+    }
+    .top-Services{
+        width: 100%;
+        margin: auto;
+    }
+    .top-Services h5{
+        font-size: 14px;
+        color: #9b9494;
+        margin: 20px 0;
+    
+    }
+    .top-Services h3{
+        font-size: 33px;
+        font-weight: bold;
+        width: 80%;
+        font-family: Poppins-Regular;
+    }
+    .bottom-Services{
+    }
+    .ul-box{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 50px auto;
+        padding: 0;
+    }
+    .li-box.green{
+        background: #D5FA52;
+        height: 200px;
+        margin: 40px auto auto 10px;
+        padding: 15px 15px 40px;
+        border: none;
+    }
+    .li-box{
+        width: 75%;
+        border: 2px #9b9494 solid;
+        border-radius: 15px;
+        padding: 15px 15px 40px;
+        height: 200px;
+        margin: 40px auto auto 10px;
+    }
+    .li-box img{
+        width: 50px;
+        height: auto;
+        margin: auto;
+    }
+    .li-box h5{
+        font-size: 13px;
+        font-weight: bold;
+        font-family: Poppins-Bold;
+    }
+    .li-box p{
+        width: 90%;
+        margin: 15px 0;
+        font-size: 12px;
+    }
+    .li-box a{
+        color: #000;
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    
+    .bottom-tab-services{
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
+    }
+    .left-bottom-tab-services{
+        width: 90%;
+        margin: auto;
+    }
+    .left-bottom-tab-services h3{
+        width: 100%;
+        font-size: 15px;
+        font-family: Poppins-Bold;
+        text-align: center;
+        line-height: 2rem;
+    }
+    .right-bottom-tab-services {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+    }
+    .right-bottom-tab-services button{
+        background: #000;
+        padding: 10px 20px;
+        color: #fff;
+        font-size: 8px;
+        font-weight: bold;
+        margin: auto;
+    }
+}
+/* ------------------------------------------------------------------320px responsive-----SERVICES -----*/
+@media all and (max-width: 320px){
+    #Services-section{
+        margin: auto;
+        height: auto;
+    }
+    .top-Services{
+        width: 100%;
+        margin: auto;
+    }
+    .top-Services h5{
+        font-size: 13px;
+        color: #9b9494;
+        margin: 20px 0;
+    
+    }
+    .top-Services h3{
+        font-size: 31px;
+        font-weight: bold;
+        width: 80%;
+        font-family: Poppins-Regular;
+    }
+    .bottom-Services{
+    }
+    .ul-box{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 50px auto;
+        padding: 0;
+    }
+    .li-box.green{
+        background: #D5FA52;
+        height: 200px;
+        margin: 40px auto auto 10px;
+        padding: 15px 15px 40px;
+        border: none;
+    }
+    .li-box{
+        width: 75%;
+        border: 2px #9b9494 solid;
+        border-radius: 15px;
+        padding: 15px 15px 40px;
+        height: 200px;
+        margin: 40px auto auto 10px;
+    }
+    .li-box img{
+        width: 50px;
+        height: auto;
+        margin: auto;
+    }
+    .li-box h5{
+        font-size: 12px;
+        font-weight: bold;
+        font-family: Poppins-Bold;
+    }
+    .li-box p{
+        width: 90%;
+        margin: 15px 0;
+        font-size: 11px;
+    }
+    .li-box a{
+        color: #000;
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 11px;
+    }
+    
+    .bottom-tab-services{
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
+    }
+    .left-bottom-tab-services{
+        width: 90%;
+        margin: auto;
+    }
+    .left-bottom-tab-services h3{
+        width: 100%;
+        font-size: 15px;
+        font-family: Poppins-Bold;
+        text-align: center;
+        line-height: 2rem;
+    }
+    .right-bottom-tab-services {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+    }
+    .right-bottom-tab-services button{
+        background: #000;
+        padding: 10px 20px;
+        color: #fff;
+        font-size: 8px;
+        font-weight: bold;
+        margin: auto;
+    }
+}
