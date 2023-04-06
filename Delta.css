@@ -2915,6 +2915,1325 @@ ul li{
         color: #fff;
         font-size: 8px;
         font-weight: bold;
+        margin: 10px auto;
+    }
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////<-- Pricing --> */
+#Pricing{
+    background: #FFFCF3;
+    height: auto;
+}
+.container.Pricing{
+    height: auto;
+}
+.Pricing-top{
+    width: 75%;
+    margin: auto;
+    padding-top: 50px;
+}
+.Pricing-top h5{
+    color:#9b9494;
+    margin: auto;
+    font-size: 22px;
+    text-align: center;
+    font-family: Poppins-Regular;
+}
+.Pricing-top h3{
+    font-size: 35px;
+    font-family: Poppins-Bold;
+    margin: auto;
+    text-align: center;
+    margin: 20px 0;
+}
+.price-toggle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price-toggle h6{
+    font-size: 15px;
+    font-family: Poppins-Regular;
+}   
+.price-toggle img{
+    width: 45px;
+    height: auto;
+    margin: 0 15px;
+
+}
+.price-toggle span{
+    font-size: 15px;
+    color:#9b9494;
+    font-family: Poppins-Regular;
+}
+.save{
+    background: #efa91f;
+    margin: 0 10px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: Poppins-Regular;
+    font-size: 12px;
+    color: #000;
+}
+.Pricing-bottom{
+    position: relative;
+}
+.pricebox-ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin:auto;
+    padding: 50px 0;
+}
+.green-discount-box{
+    position: absolute;
+    top: 0;
+    left: 175px;
+    background: #D5FA52;
+    padding: 10px 20px ;
+    color: #000;
+    font-size: 12px;
+    border-radius: 10px;
+    font-family: Poppins-Bold;
+}
+.pricebox-li{
+    background: #fffefe;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px ;
+    text-align: center;
+    height: auto;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+.pricebox-li.black{
+    background: #000;
+    color: #fff;
+}
+.pricebox-li h5{
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+}
+.price-amount-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.price-amount-box h4{
+    font-size: 35px;
+    margin: 10px auto;
+}
+.available-features{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.available-features img{
+    width: 15px;
+    margin: 0 5px;
+}
+.feature-box{
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.discount{
+    padding: 5px 8px;
+    background: #b4b5b5;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.discount.white{
+    background: #fff;
+}
+.plan-button{
+    padding: 10px 30px;
+    background: #757070;
+    font-size: 15px;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    color: #000;
+}
+.plan-button.black{
+    background: #D5FA52;
+}
+
+
+/* ------------------------------------------------------------------1280px responsive-----Pricing -----*/
+@media all and (max-width: 1280px){
+    #Pricing{
+        background: #FFFCF3;
+        height: auto;
+    }
+    .container.Pricing{
+        height: auto;
+    }
+    .Pricing-top{
+        width: 75%;
         margin: auto;
+        padding-top: 50px;
+    }
+    .Pricing-top h5{
+        color:#9b9494;
+        margin: auto;
+        font-size: 22px;
+        text-align: center;
+        font-family: Poppins-Regular;
+    }
+    .Pricing-top h3{
+        font-size: 35px;
+        font-family: Poppins-Bold;
+        margin: auto;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .price-toggle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .price-toggle h6{
+        font-size: 15px;
+        font-family: Poppins-Regular;
+    }   
+    .price-toggle img{
+        width: 45px;
+        height: auto;
+        margin: 0 15px;
+    
+    }
+    .price-toggle span{
+        font-size: 15px;
+        color:#9b9494;
+        font-family: Poppins-Regular;
+    }
+    .save{
+        background: #efa91f;
+        margin: 0 10px;
+        padding: 8px 10px;
+        border-radius: 8px;
+        font-weight: bold;
+        font-family: Poppins-Regular;
+        font-size: 12px;
+        color: #000;
+    }
+    .Pricing-bottom{
+        position: relative;
+    }
+    .pricebox-ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin:auto;
+        padding: 50px 0;
+    }
+    .green-discount-box{
+        position: absolute;
+        top: 0;
+        left: 160px;
+        background: #D5FA52;
+        padding: 10px 20px ;
+        color: #000;
+        font-size: 12px;
+        border-radius: 10px;
+        font-family: Poppins-Bold;
+    }
+    .pricebox-li{
+        background: #fffefe;
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px ;
+        text-align: center;
+        height: auto;
+        padding-bottom: 15px;
+        border-radius: 10px;
+    }
+    .pricebox-li.black{
+        background: #000;
+        color: #fff;
+    }
+    .pricebox-li h5{
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    .price-amount-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        text-align: center;
+        margin: auto;
+    }
+    .price-amount-box h4{
+        font-size: 35px;
+        margin: 10px auto;
+    }
+    .available-features{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+    .available-features img{
+        width: 15px;
+        margin: 0 5px;
+    }
+    .feature-box{
+        width: 100%;
+        margin: 10px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .discount{
+        padding: 5px 8px;
+        background: #b4b5b5;
+        color: #000;
+        font-size: 15px;
+        font-weight: bold;
+        width: 32%;
+        text-align: center;
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+    .discount.white{
+        background: #fff;
+    }
+    .plan-button{
+        padding: 10px 30px;
+        background: #757070;
+        font-size: 15px;
+        font-weight: bold;
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        border-radius: 5px;
+        color: #000;
+    }
+    .plan-button.black{
+        background: #D5FA52;
+    }
+    
+}
+/* ------------------------------------------------------------------980px responsive-----Pricing -----*/
+@media all and (max-width: 980px){
+    #Pricing{
+        background: #FFFCF3;
+        height: auto;
+    }
+    .container.Pricing{
+        height: auto;
+    }
+    .Pricing-top{
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .Pricing-top h5{
+        color:#9b9494;
+        margin: auto;
+        font-size: 20px;
+        text-align: center;
+        font-family: Poppins-Regular;
+    }
+    .Pricing-top h3{
+        font-size: 32px;
+        font-family: Poppins-Bold;
+        margin: auto;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .price-toggle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .price-toggle h6{
+        font-size: 15px;
+        font-family: Poppins-Regular;
+    }   
+    .price-toggle img{
+        width: 45px;
+        height: auto;
+        margin: 0 15px;
+    
+    }
+    .price-toggle span{
+        font-size: 15px;
+        color:#9b9494;
+        font-family: Poppins-Regular;
+    }
+    .save{
+        background: #efa91f;
+        margin: 0 10px;
+        padding: 8px 10px;
+        border-radius: 8px;
+        font-weight: bold;
+        font-family: Poppins-Regular;
+        font-size: 12px;
+        color: #000;
+    }
+    .Pricing-bottom{
+        position: relative;
+    }
+    .pricebox-ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin:auto;
+        padding: 50px 0;
+    }
+    .green-discount-box{
+        position: absolute;
+        top: 0;
+        left: 100px;
+        background: #D5FA52;
+        padding: 10px 20px ;
+        color: #000;
+        font-size: 12px;
+        border-radius: 10px;
+        font-family: Poppins-Bold;
+    }
+    .pricebox-li{
+        background: #fffefe;
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px ;
+        text-align: center;
+        height: auto;
+        padding-bottom: 15px;
+        border-radius: 10px;
+    }
+    .pricebox-li.black{
+        background: #000;
+        color: #fff;
+    }
+    .pricebox-li h5{
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    .price-amount-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        text-align: center;
+        margin: auto;
+    }
+    .price-amount-box h4{
+        font-size: 30px;
+        margin: 10px auto;
+    }
+    .price-amount-box p{
+        font-size: 11px;
+        margin: 5px auto;
+    }
+    .available-features{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+    .available-features img{
+        width: 15px;
+        margin: 0 5px;
+    }
+    .available-features span{
+        font-size: 12px;
+        margin: 5px auto;
+    }
+    .feature-box{
+        width: 100%;
+        margin: 10px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .discount{
+        padding: 5px 8px;
+        background: #b4b5b5;
+        color: #000;
+        font-size: 13px;
+        font-weight: bold;
+        width: 32%;
+        text-align: center;
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+    .discount.white{
+        background: #fff;
+    }
+    .plan-button{
+        padding: 10px 30px;
+        background: #757070;
+        font-size: 13px;
+        font-weight: bold;
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        border-radius: 5px;
+        color: #000;
+    }
+    .plan-button.black{
+        background: #D5FA52;
+    }
+    
+}
+/* ------------------------------------------------------------------768px responsive-----Pricing -----*/
+@media all and (max-width: 768px){
+    #Pricing{
+        background: #FFFCF3;
+        height: auto;
+    }
+    .container.Pricing{
+        height: auto;
+    }
+    .Pricing-top{
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .Pricing-top h5{
+        color:#9b9494;
+        margin: auto;
+        font-size: 17px;
+        text-align: center;
+        font-family: Poppins-Regular;
+    }
+    .Pricing-top h3{
+        font-size: 28px;
+        font-family: Poppins-Bold;
+        margin: auto;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .price-toggle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .price-toggle h6{
+        font-size: 15px;
+        font-family: Poppins-Regular;
+    }   
+    .price-toggle img{
+        width: 45px;
+        height: auto;
+        margin: 0 15px;
+    
+    }
+    .price-toggle span{
+        font-size: 15px;
+        color:#9b9494;
+        font-family: Poppins-Regular;
+    }
+    .save{
+        background: #efa91f;
+        margin: 0 10px;
+        padding: 8px 10px;
+        border-radius: 8px;
+        font-weight: bold;
+        font-family: Poppins-Regular;
+        font-size: 12px;
+        color: #000;
+    }
+    .Pricing-bottom{
+        position: relative;
+    }
+    .pricebox-ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin:auto;
+        padding: 50px 0;
+    }
+    .green-discount-box{
+        position: absolute;
+        top: 0;
+        left: 80px;
+        background: #D5FA52;
+        padding: 10px 20px ;
+        color: #000;
+        font-size: 9px;
+        border-radius: 10px;
+        font-family: Poppins-Bold;
+    }
+    .pricebox-li{
+        background: #fffefe;
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px ;
+        text-align: center;
+        height: auto;
+        padding-bottom: 15px;
+        border-radius: 10px;
+    }
+    .pricebox-li.black{
+        background: #000;
+        color: #fff;
+    }
+    .pricebox-li h5{
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    .price-amount-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        text-align: center;
+        margin: auto;
+    }
+    .price-amount-box h4{
+        font-size: 22px;
+        margin: 10px auto;
+    }
+    .price-amount-box p{
+        font-size: 9px;
+        margin: 5px auto;
+    }
+    .available-features{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+    .available-features img{
+        width: 15px;
+        margin: 0 5px;
+    }
+    .available-features span{
+        font-size: 10px;
+        margin: 5px auto;
+    }
+    .feature-box{
+        width: 100%;
+        margin: 10px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .discount{
+        padding: 5px 8px;
+        background: #b4b5b5;
+        color: #000;
+        font-size: 11px;
+        font-weight: bold;
+        width: 32%;
+        text-align: center;
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+    .discount.white{
+        background: #fff;
+    }
+    .plan-button{
+        padding: 10px 27px;
+        background: #757070;
+        font-size: 11px;
+        font-weight: bold;
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        border-radius: 5px;
+        color: #000;
+    }
+    .plan-button.black{
+        background: #D5FA52;
+    }
+    
+}
+/* ------------------------------------------------------------------640px responsive-----Pricing -----*/
+@media all and (max-width: 640px){
+    #Pricing{
+        background: #FFFCF3;
+        height: auto;
+    }
+    .container.Pricing{
+        height: auto;
+    }
+    .Pricing-top{
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .Pricing-top h5{
+        color:#9b9494;
+        margin: auto;
+        font-size: 17px;
+        text-align: center;
+        font-family: Poppins-Regular;
+    }
+    .Pricing-top h3{
+        font-size: 28px;
+        font-family: Poppins-Bold;
+        margin: auto;
+        text-align: center;
+        margin: 20px 0;
+        line-height: 2rem;
+    }
+    .price-toggle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .price-toggle h6{
+        font-size: 15px;
+        font-family: Poppins-Regular;
+    }   
+    .price-toggle img{
+        width: 45px;
+        height: auto;
+        margin: 0 15px;
+    
+    }
+    .price-toggle span{
+        font-size: 15px;
+        color:#9b9494;
+        font-family: Poppins-Regular;
+    }
+    .save{
+        background: #efa91f;
+        margin: 0 10px;
+        padding: 8px 10px;
+        border-radius: 8px;
+        font-weight: bold;
+        font-family: Poppins-Regular;
+        font-size: 12px;
+        color: #000;
+    }
+    .Pricing-bottom{
+        position: relative;
+    }
+    .pricebox-ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin:auto;
+        padding: 50px 0;
+    }
+    .green-discount-box{
+        position: absolute;
+        top: 0;
+        left: 205px;
+        background: #D5FA52;
+        padding: 10px 20px ;
+        color: #000;
+        font-size: 12px;
+        border-radius: 10px;
+        font-family: Poppins-Bold;
+    }
+    .pricebox-li{
+        background: #fffefe;
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px auto;
+        text-align: center;
+        height: auto;
+        padding-bottom: 15px;
+        border-radius: 10px;
+    }
+    .pricebox-li.black{
+        background: #000;
+        color: #fff;
+    }
+    .pricebox-li h5{
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    .price-amount-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        text-align: center;
+        margin: auto;
+    }
+    .price-amount-box h4{
+        font-size: 35px;
+        margin: 10px auto;
+    }
+    .price-amount-box p{
+        font-size: 13px;
+        margin: auto;
+    }
+    .available-features{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+    .available-features img{
+        width: 15px;
+        margin: 0 5px;
+    }
+    .feature-box{
+        width: 70%;
+        margin: 10px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .discount{
+        padding: 5px 8px;
+        background: #b4b5b5;
+        color: #000;
+        font-size: 15px;
+        font-weight: bold;
+        width: 32%;
+        text-align: center;
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+    .discount.white{
+        background: #fff;
+    }
+    .plan-button{
+        padding: 10px 30px;
+        background: #757070;
+        font-size: 15px;
+        font-weight: bold;
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        border-radius: 5px;
+        color: #000;
+    }
+    .plan-button.black{
+        background: #D5FA52;
+    }
+}
+/* ------------------------------------------------------------------480px responsive-----Pricing -----*/
+@media all and (max-width: 480px){
+    #Pricing{
+        background: #FFFCF3;
+        height: auto;
+    }
+    .container.Pricing{
+        height: auto;
+    }
+    .Pricing-top{
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .Pricing-top h5{
+        color:#9b9494;
+        margin: auto;
+        font-size: 17px;
+        text-align: center;
+        font-family: Poppins-Regular;
+    }
+    .Pricing-top h3{
+        font-size: 28px;
+        font-family: Poppins-Bold;
+        margin: auto;
+        text-align: center;
+        margin: 20px 0;
+        line-height: 2rem;
+    }
+    .price-toggle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .price-toggle h6{
+        font-size: 15px;
+        font-family: Poppins-Regular;
+    }   
+    .price-toggle img{
+        width: 45px;
+        height: auto;
+        margin: 0 15px;
+    
+    }
+    .price-toggle span{
+        font-size: 15px;
+        color:#9b9494;
+        font-family: Poppins-Regular;
+    }
+    .save{
+        background: #efa91f;
+        margin: 0 10px;
+        padding: 8px 10px;
+        border-radius: 8px;
+        font-weight: bold;
+        font-family: Poppins-Regular;
+        font-size: 12px;
+        color: #000;
+    }
+    .Pricing-bottom{
+        position: relative;
+    }
+    .pricebox-ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin:auto;
+        padding: 50px 0;
+    }
+    .green-discount-box{
+        position: absolute;
+        top: 0;
+        left: 140px;
+        background: #D5FA52;
+        padding: 10px 20px ;
+        color: #000;
+        font-size: 12px;
+        border-radius: 10px;
+        font-family: Poppins-Bold;
+    }
+    .pricebox-li{
+        background: #fffefe;
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px auto;
+        text-align: center;
+        height: auto;
+        padding-bottom: 15px;
+        border-radius: 10px;
+    }
+    .pricebox-li.black{
+        background: #000;
+        color: #fff;
+    }
+    .pricebox-li h5{
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    .price-amount-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        text-align: center;
+        margin: auto;
+    }
+    .price-amount-box h4{
+        font-size: 35px;
+        margin: 10px auto;
+    }
+    .price-amount-box p{
+        font-size: 13px;
+        margin: auto;
+    }
+    .available-features{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+    .available-features img{
+        width: 15px;
+        margin: 0 5px;
+    }
+    .feature-box{
+        width: 100%;
+        margin: 10px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .discount{
+        padding: 5px 8px;
+        background: #b4b5b5;
+        color: #000;
+        font-size: 15px;
+        font-weight: bold;
+        width: 32%;
+        text-align: center;
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+    .discount.white{
+        background: #fff;
+    }
+    .plan-button{
+        padding: 10px 30px;
+        background: #757070;
+        font-size: 15px;
+        font-weight: bold;
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        border-radius: 5px;
+        color: #000;
+    }
+    .plan-button.black{
+        background: #D5FA52;
+    }
+}
+/* ------------------------------------------------------------------360px responsive-----Pricing -----*/
+@media all and (max-width: 360px){
+    #Pricing{
+        background: #FFFCF3;
+        height: auto;
+    }
+    .container.Pricing{
+        height: auto;
+    }
+    .Pricing-top{
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .Pricing-top h5{
+        color:#9b9494;
+        margin: auto;
+        font-size: 12px;
+        text-align: center;
+        font-family: Poppins-Regular;
+    }
+    .Pricing-top h3{
+        font-size: 20px;
+        font-family: Poppins-Bold;
+        margin: auto;
+        text-align: center;
+        margin: 20px 0;
+        line-height: 2rem;
+    }
+    .price-toggle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .price-toggle h6{
+        font-size: 12px;
+        font-family: Poppins-Regular;
+    }   
+    .price-toggle img{
+        width: 45px;
+        height: auto;
+        margin: 0 15px;
+    
+    }
+    .price-toggle span{
+        font-size: 11px;
+        color:#9b9494;
+        font-family: Poppins-Regular;
+    }
+    .save{
+        background: #efa91f;
+        margin: 0 10px;
+        padding: 8px 10px;
+        border-radius: 8px;
+        font-weight: bold;
+        font-family: Poppins-Regular;
+        font-size: 11px;
+        color: #000;
+    }
+    .Pricing-bottom{
+        position: relative;
+    }
+    .pricebox-ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 95%;
+        margin:auto;
+        padding: 50px 0;
+    }
+    .green-discount-box{
+        position: absolute;
+        top: 10px;
+        left: 100px;
+        background: #D5FA52;
+        padding: 10px 15px ;
+        color: #000;
+        font-size: 9px;
+        border-radius: 10px;
+        font-family: Poppins-Bold;
+    }
+    .pricebox-li{
+        background: #fffefe;
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px auto;
+        text-align: center;
+        height: auto;
+        padding-bottom: 15px;
+        border-radius: 10px;
+    }
+    .pricebox-li.black{
+        background: #000;
+        color: #fff;
+    }
+    .pricebox-li h5{
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    .price-amount-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        text-align: center;
+        margin: auto;
+    }
+    .price-amount-box h4{
+        font-size: 35px;
+        margin: 10px auto;
+    }
+    .price-amount-box p{
+        font-size: 13px;
+        margin: auto;
+    }
+    .available-features{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+    .available-features img{
+        width: 15px;
+        margin: 0 5px;
+    }
+    .feature-box{
+        width: 100%;
+        margin: 10px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .discount{
+        padding: 5px 8px;
+        background: #b4b5b5;
+        color: #000;
+        font-size: 13px;
+        font-weight: bold;
+        width: 32%;
+        text-align: center;
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+    .discount.white{
+        background: #fff;
+    }
+    .plan-button{
+        padding: 10px 30px;
+        background: #757070;
+        font-size: 13px;
+        font-weight: bold;
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        border-radius: 5px;
+        color: #000;
+    }
+    .plan-button.black{
+        background: #D5FA52;
+    }
+}
+/* ------------------------------------------------------------------320px responsive-----Pricing -----*/
+@media all and (max-width: 320px){
+    #Pricing{
+        background: #FFFCF3;
+        height: auto;
+    }
+    .container.Pricing{
+        height: auto;
+    }
+    .Pricing-top{
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .Pricing-top h5{
+        color:#9b9494;
+        margin: auto;
+        font-size: 12px;
+        text-align: center;
+        font-family: Poppins-Regular;
+    }
+    .Pricing-top h3{
+        font-size: 20px;
+        font-family: Poppins-Bold;
+        margin: auto;
+        text-align: center;
+        margin: 20px 0;
+        line-height: 2rem;
+    }
+    .price-toggle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .price-toggle h6{
+        font-size: 12px;
+        font-family: Poppins-Regular;
+    }   
+    .price-toggle img{
+        width: 45px;
+        height: auto;
+        margin: 0 15px;
+    
+    }
+    .price-toggle span{
+        font-size: 11px;
+        color:#9b9494;
+        font-family: Poppins-Regular;
+    }
+    .save{
+        background: #efa91f;
+        margin: 0 10px;
+        padding: 8px 10px;
+        border-radius: 8px;
+        font-weight: bold;
+        font-family: Poppins-Regular;
+        font-size: 11px;
+        color: #000;
+    }
+    .Pricing-bottom{
+        position: relative;
+    }
+    .pricebox-ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 95%;
+        margin:auto;
+        padding: 50px 0;
+    }
+    .green-discount-box{
+        position: absolute;
+        top: 10px;
+        left: 85px;
+        background: #D5FA52;
+        padding: 10px 15px ;
+        color: #000;
+        font-size: 9px;
+        border-radius: 10px;
+        font-family: Poppins-Bold;
+    }
+    .pricebox-li{
+        background: #fffefe;
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px auto;
+        text-align: center;
+        height: auto;
+        padding-bottom: 15px;
+        border-radius: 10px;
+    }
+    .pricebox-li.black{
+        background: #000;
+        color: #fff;
+    }
+    .pricebox-li h5{
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    .price-amount-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        text-align: center;
+        margin: auto;
+    }
+    .price-amount-box h4{
+        font-size: 30px;
+        margin: 10px auto;
+    }
+    .price-amount-box p{
+        font-size: 9px;
+        margin: auto;
+    }
+    .available-features{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+    .available-features img{
+        width: 15px;
+        margin: 0 5px;
+    }
+    .feature-box{
+        width: 100%;
+        margin: 10px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .discount{
+        padding: 5px 8px;
+        background: #b4b5b5;
+        color: #000;
+        font-size: 13px;
+        font-weight: bold;
+        width: 32%;
+        text-align: center;
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+    .discount.white{
+        background: #fff;
+    }
+    .plan-button{
+        padding: 10px 30px;
+        background: #757070;
+        font-size: 13px;
+        font-weight: bold;
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        border-radius: 5px;
+        color: #000;
+    }
+    .plan-button.black{
+        background: #D5FA52;
     }
 }
