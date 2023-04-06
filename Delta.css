@@ -4237,3 +4237,637 @@ ul li{
         background: #D5FA52;
     }
 }
+
+/* ///////////////////////////////////////////////////////////////////////////<-- Testimonials --> */
+#Testimonials{
+    height: auto;
+}
+.container.Testimonials{
+}
+.testimonials-top{
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+}
+.testimonials-top h5{
+    color:#9b9494;
+    margin: 10px auto;
+    font-size: 12px;
+    text-align: center;
+    font-family: Poppins-Regular;
+}
+.testimonials-top h3{
+    color:#000;
+    margin: 20px auto;
+    width: 35%;
+    font-size: 35px;
+    text-align: center;
+    font-family: Poppins-Regular;
+}
+.testimonials-bottom{
+
+}
+.testimonials-bottom-ul{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin: 50px auto;
+    list-style: none;
+}
+.testimonials-ul-li{
+    width: 28%;
+    margin: auto;
+    padding: 25px;
+    list-style: none;
+}
+.testimonials-company-logo{
+    width: 100px;
+    height: auto;
+}
+.testimonials-ul-li p{
+    font-size: 13px;
+    font-family: Poppins-Regular;
+    margin: 15px 0;
+}
+.testimonials-ul-li h6{
+    font-size: 11px;
+    color: #757070;
+    font-family: Poppins-Regular;
+    margin: 8px auto;
+}
+.company-cfo{
+    display: flex;
+    justify-content: space-between;
+}
+.profile-pic{
+    width: 45px;
+    height: 45px;
+    border: 1px #a6a1a1 solid;
+    border-radius: 50%;
+    padding: 5px;
+}
+.company-cfo span{
+    font-size: 15px;
+}
+.quotation-icon{
+    width: 30px;
+    height: 30px;
+}
+/* ------------------------------------------------------------------1280px responsive-----Testimonial -----*/
+@media all and (max-width: 1280px){
+    #Testimonials{
+        height: auto;
+    }
+    .container.Testimonials{
+    }
+    .testimonials-top{
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+    .testimonials-top h5{
+        color:#9b9494;
+        margin: 10px auto;
+        font-size: 12px;
+        text-align: center;
+        font-family: Poppins-Regular;
+    }
+    .testimonials-top h3{
+        color:#000;
+        margin: 20px auto;
+        width: 45%;
+        font-size: 35px;
+        text-align: center;
+        font-family: Poppins-Regular;
+    }
+    .testimonials-bottom{
+    
+    }
+    .testimonials-bottom-ul{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        margin: 50px auto;
+        list-style: none;
+    }
+    .testimonials-ul-li{
+        width: 28%;
+        margin: auto;
+        padding: 25px;
+        list-style: none;
+    }
+    .testimonials-company-logo{
+        width: 100px;
+        height: auto;
+    }
+    .testimonials-ul-li p{
+        font-size: 13px;
+        font-family: Poppins-Regular;
+        margin: 15px 0;
+    }
+    .testimonials-ul-li h6{
+        font-size: 11px;
+        color: #757070;
+        font-family: Poppins-Regular;
+        margin: 8px auto;
+    }
+    .company-cfo{
+        display: flex;
+        justify-content: space-between;
+    }
+    .profile-pic{
+        width: 45px;
+        height: 45px;
+        border: 1px #a6a1a1 solid;
+        border-radius: 50%;
+        padding: 5px;
+    }
+    .company-cfo span{
+        font-size: 15px;
+    }
+    .quotation-icon{
+        width: 30px;
+        height: 30px;
+    }
+}
+/* ------------------------------------------------------------------980px responsive-----Testimonial -----*/
+@media all and (max-width: 980px){
+    #Testimonials{
+        height: auto;
+    }
+    .container.Testimonials{
+    }
+    .testimonials-top{
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+    .testimonials-top h5{
+        color:#9b9494;
+        margin: 10px auto;
+        font-size: 12px;
+        text-align: center;
+        font-family: Poppins-Regular;
+    }
+    .testimonials-top h3{
+        color:#000;
+        margin: 20px auto;
+        width: 75%;
+        font-size: 35px;
+        text-align: center;
+        font-family: Poppins-Regular;
+    }
+    .testimonials-bottom{
+    
+    }
+    .testimonials-bottom-ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        margin: 50px auto;
+        list-style: none;
+    }
+    .testimonials-ul-li{
+        width: 28%;
+        margin: auto;
+        padding: 25px;
+        list-style: none;
+    }
+    .testimonials-company-logo{
+        width: 100px;
+        height: auto;
+    }
+    .testimonials-ul-li p{
+        font-size: 13px;
+        font-family: Poppins-Regular;
+        margin: 15px 0;
+    }
+    .testimonials-ul-li h6{
+        font-size: 11px;
+        color: #757070;
+        font-family: Poppins-Regular;
+        margin: 8px auto;
+    }
+    .company-cfo{
+        display: flex;
+        justify-content: space-between;
+    }
+    .profile-pic{
+        width: 45px;
+        height: 45px;
+        border: 1px #a6a1a1 solid;
+        border-radius: 50%;
+        padding: 5px;
+    }
+    .company-cfo span{
+        font-size: 15px;
+    }
+    .quotation-icon{
+        width: 30px;
+        height: 30px;
+    }
+}
+/* ------------------------------------------------------------------768px responsive-----Testimonial -----*/
+@media all and (max-width: 768px){
+    #Testimonials{
+        height: auto;
+    }
+    .container.Testimonials{
+    }
+    .testimonials-top{
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+    .testimonials-top h5{
+        color:#9b9494;
+        margin: 10px auto;
+        font-size: 12px;
+        text-align: center;
+        font-family: Poppins-Regular;
+    }
+    .testimonials-top h3{
+        color:#000;
+        margin: 20px auto;
+        width: 75%;
+        font-size: 35px;
+        text-align: center;
+        font-family: Poppins-Regular;
+    }
+    .testimonials-bottom{
+    
+    }
+    .testimonials-bottom-ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        margin: 50px auto;
+        list-style: none;
+    }
+    .testimonials-ul-li{
+        width: 28%;
+        margin: auto;
+        padding: 10px;
+        list-style: none;
+    }
+    .testimonials-company-logo{
+        width: 100px;
+        height: auto;
+    }
+    .testimonials-ul-li p{
+        font-size: 10px;
+        font-family: Poppins-Regular;
+        margin: 15px 0;
+    }
+    .testimonials-ul-li h6{
+        font-size: 9px;
+        color: #757070;
+        font-family: Poppins-Regular;
+        margin: 8px auto;
+    }
+    .company-cfo{
+        display: flex;
+        justify-content: space-between;
+    }
+    .profile-pic{
+        width: 33px;
+        height: 33px;
+        border: 1px #a6a1a1 solid;
+        border-radius: 50%;
+        padding: 5px;
+    }
+    .company-cfo span{
+        font-size: 12px;
+    }
+    .quotation-icon{
+        width: 20px;
+        height: 20px;
+    }
+}
+/* ------------------------------------------------------------------640px responsive-----Testimonial -----*/
+@media all and (max-width: 640px){
+    #Testimonials{
+        height: auto;
+    }
+    .container.Testimonials{
+    }
+    .testimonials-top{
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+    .testimonials-top h5{
+        color:#9b9494;
+        margin: 10px auto;
+        font-size: 12px;
+        text-align: center;
+        font-family: Poppins-Regular;
+    }
+    .testimonials-top h3{
+        color:#000;
+        margin: 20px auto;
+        width: 75%;
+        font-size: 35px;
+        text-align: center;
+        font-family: Poppins-Regular;
+    }
+    .testimonials-bottom{
+    
+    }
+    .testimonials-bottom-ul{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: auto;
+        margin: 50px auto;
+        list-style: none;
+    }
+    .testimonials-ul-li{
+        width: 60%;
+        margin: 25px auto;
+        padding: 10px;
+        list-style: none;
+        text-align: center;
+    }
+    .testimonials-company-logo{
+        width: 80px;
+        height: auto;
+    }
+    .testimonials-ul-li p{
+        font-size: 10px;
+        font-family: Poppins-Regular;
+        margin: 15px 0;
+    }
+    .testimonials-ul-li h6{
+        font-size: 9px;
+        color: #757070;
+        font-family: Poppins-Regular;
+        margin: 8px auto;
+    }
+    .company-cfo{
+        display: flex;
+        justify-content: space-between;
+    }
+    .profile-pic{
+        width: 33px;
+        height: 33px;
+        border: 1px #a6a1a1 solid;
+        border-radius: 50%;
+        padding: 5px;
+    }
+    .company-cfo span{
+        font-size: 12px;
+    }
+    .quotation-icon{
+        width: 20px;
+        height: 20px;
+    }
+}
+/* ------------------------------------------------------------------480px responsive-----Testimonial -----*/
+@media all and (max-width: 480px){
+    #Testimonials{
+        height: auto;
+    }
+    .container.Testimonials{
+    }
+    .testimonials-top{
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+    .testimonials-top h5{
+        color:#9b9494;
+        margin: 10px auto;
+        font-size: 12px;
+        text-align: center;
+        font-family: Poppins-Regular;
+    }
+    .testimonials-top h3{
+        color:#000;
+        margin: 20px auto;
+        width: 95%;
+        font-size: 35px;
+        text-align: center;
+        font-family: Poppins-Regular;
+    }
+    .testimonials-bottom{
+    
+    }
+    .testimonials-bottom-ul{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: auto;
+        margin: 50px auto;
+        list-style: none;
+    }
+    .testimonials-ul-li{
+        width: 60%;
+        margin: 25px auto;
+        padding: 10px;
+        list-style: none;
+        text-align: center;
+    }
+    .testimonials-company-logo{
+        width: 80px;
+        height: auto;
+    }
+    .testimonials-ul-li p{
+        font-size: 10px;
+        font-family: Poppins-Regular;
+        margin: 15px 0;
+        text-align: left;
+    }
+    .testimonials-ul-li h6{
+        font-size: 9px;
+        color: #757070;
+        font-family: Poppins-Regular;
+        margin: 8px auto;
+    }
+    .company-cfo{
+        display: flex;
+        justify-content: space-between;
+    }
+    .profile-pic{
+        width: 33px;
+        height: 33px;
+        border: 1px #a6a1a1 solid;
+        border-radius: 50%;
+        padding: 5px;
+    }
+    .company-cfo span{
+        font-size: 15px;
+    }
+    .quotation-icon{
+        width: 20px;
+        height: 20px;
+    }
+}
+/* ------------------------------------------------------------------360px responsive-----Testimonial -----*/
+@media all and (max-width: 360px){
+    #Testimonials{
+        height: auto;
+    }
+    .container.Testimonials{
+    }
+    .testimonials-top{
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+    .testimonials-top h5{
+        color:#9b9494;
+        margin: 10px auto;
+        font-size: 12px;
+        text-align: center;
+        font-family: Poppins-Regular;
+    }
+    .testimonials-top h3{
+        color:#000;
+        margin: 20px auto;
+        width: 95%;
+        font-size: 25px;
+        text-align: center;
+        font-family: Poppins-Regular;
+    }
+    .testimonials-bottom{
+    
+    }
+    .testimonials-bottom-ul{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: auto;
+        margin: 50px auto;
+        list-style: none;
+    }
+    .testimonials-ul-li{
+        width: 80%;
+        margin: 25px auto;
+        padding: 10px;
+        list-style: none;
+        text-align: center;
+    }
+    .testimonials-company-logo{
+        width: 80px;
+        height: auto;
+    }
+    .testimonials-ul-li p{
+        font-size: 10px;
+        font-family: Poppins-Regular;
+        margin: 15px 0;
+        text-align: left;
+    }
+    .testimonials-ul-li h6{
+        font-size: 9px;
+        color: #757070;
+        font-family: Poppins-Regular;
+        margin: 8px auto;
+    }
+    .company-cfo{
+        display: flex;
+        justify-content: space-between;
+    }
+    .profile-pic{
+        width: 33px;
+        height: 33px;
+        border: 1px #a6a1a1 solid;
+        border-radius: 50%;
+        padding: 5px;
+    }
+    .company-cfo span{
+        font-size: 15px;
+    }
+    .quotation-icon{
+        width: 20px;
+        height: 20px;
+    }
+}
+/* ------------------------------------------------------------------320px responsive-----Testimonial -----*/
+@media all and (max-width: 320px){
+    #Testimonials{
+        height: auto;
+    }
+    .container.Testimonials{
+    }
+    .testimonials-top{
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+    .testimonials-top h5{
+        color:#9b9494;
+        margin: 10px auto;
+        font-size: 12px;
+        text-align: center;
+        font-family: Poppins-Regular;
+    }
+    .testimonials-top h3{
+        color:#000;
+        margin: 20px auto;
+        width: 95%;
+        font-size: 25px;
+        text-align: center;
+        font-family: Poppins-Regular;
+    }
+    .testimonials-bottom{
+    
+    }
+    .testimonials-bottom-ul{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: auto;
+        margin: 50px auto;
+        list-style: none;
+    }
+    .testimonials-ul-li{
+        width: 80%;
+        margin: 25px auto;
+        padding: 10px;
+        list-style: none;
+        text-align: center;
+    }
+    .testimonials-company-logo{
+        width: 80px;
+        height: auto;
+    }
+    .testimonials-ul-li p{
+        font-size: 10px;
+        font-family: Poppins-Regular;
+        margin: 15px 0;
+        text-align: left;
+    }
+    .testimonials-ul-li h6{
+        font-size: 9px;
+        color: #757070;
+        font-family: Poppins-Regular;
+        margin: 8px auto;
+    }
+    .company-cfo{
+        display: flex;
+        justify-content: space-between;
+    }
+    .profile-pic{
+        width: 33px;
+        height: 33px;
+        border: 1px #a6a1a1 solid;
+        border-radius: 50%;
+        padding: 5px;
+    }
+    .company-cfo span{
+        font-size: 15px;
+    }
+    .quotation-icon{
+        width: 20px;
+        height: 20px;
+    }
+}
