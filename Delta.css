@@ -4871,3 +4871,715 @@ ul li{
         height: 20px;
     }
 }
+
+/* ///////////////////////////////////////////////////////////////////////////<-- Contact --> */
+#Contact{}
+.container.Contact{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Contact-left{
+    width: 45%;
+}
+.Contact-left img{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+.Contact-right{
+    width: 45%;
+}
+.Contact-right h5{
+    font-size: 13px;
+    font-family: Poppins-Regular;
+    color: #757070;
+}
+.Contact-right h3{
+    font-size: 35px;
+    font-family: Poppins-Regular;
+    width: 45%;
+    line-height: 3rem;
+}
+.contact-card{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact-card h6{
+    font-size: 14px;
+    width: 100%;
+    margin: 15px 0;
+    font-family: Poppins-Regular;
+}
+.contact-card p{
+    font-size: 15px;
+    color: #757070;
+    margin: 5px 0;
+}
+.contact-card.one{
+    width: 40%;
+    margin:5px 30px 5px 0;
+}
+.contact-card.two{
+    width: 40%;
+    margin:5px 30px 5px 0;
+}
+.contacting-icon{
+    width: 20px;
+    height: 20px;
+}
+.Form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 30px auto 15px;
+}
+.Form input{
+    padding: 10px 30px;
+    width: 100%;
+    border: none;
+    border-bottom: #555 2px solid;
+    margin: 10px auto;
+}
+.form-input.text{
+    width: 38%;
+    margin: auto 0;
+}
+.form-input.phonenumber{
+    width: 38%;
+    border-bottom: #555 2px solid;
+    margin: auto 0;
+}
+.buttonbox{
+    display: flex;
+    justify-content: flex-end;
+    height: auto;
+    width: 100%;
+    margin: 10px 0;
+}
+.contact-button{
+    padding: 13px 20px;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+/* ------------------------------------------------------------------1280px responsive-----Contact -----*/
+@media all and (max-width: 1280px){
+    .Contact-right h3{
+        font-size: 35px;
+        font-family: Poppins-Regular;
+        width: 55%;
+        line-height: 3rem;
+    }
+}
+/* ------------------------------------------------------------------980px responsive-----Contact -----*/
+@media all and (max-width: 980px){
+    #Contact{
+
+    }
+    .container.Contact{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .Contact-left{
+        width: 45%;
+    }
+    .Contact-left img{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    .Contact-right{
+        width: 45%;
+    }
+    .Contact-right h5{
+        font-size: 13px;
+        font-family: Poppins-Regular;
+        color: #757070;
+    }
+    .Contact-right h3{
+        font-size: 32px;
+        font-family: Poppins-Regular;
+        width: 90%;
+        line-height: 3rem;
+    }
+    .contact-card{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .contact-card h6{
+        font-size: 14px;
+        width: 100%;
+        margin: 15px 0;
+        font-family: Poppins-Regular;
+    }
+    .contact-card p{
+        font-size: 12px;
+        color: #757070;
+        margin: 5px 0;
+    }
+    .contact-card.one{
+        width: 40%;
+        margin:5px 30px 5px 0;
+    }
+    .contact-card.two{
+        width: 40%;
+        margin:5px 30px 5px 0;
+    }
+    .contacting-icon{
+        width: 20px;
+        height: 20px;
+    }
+    .Form{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 30px auto 15px;
+    }
+    .Form input{
+        padding: 10px 30px;
+        width: 100%;
+        border: none;
+        border-bottom: #555 2px solid;
+        margin: 10px auto;
+    }
+    .form-input.text{
+        width: 30%;
+        margin: auto 0;
+    }
+    .form-input.phonenumber{
+        width: 30%;
+        border-bottom: #555 2px solid;
+        margin: auto 0;
+    }
+    .buttonbox{
+        display: flex;
+        justify-content: flex-end;
+        height: auto;
+        width: 100%;
+        margin: 10px 0;
+    }
+    .contact-button{
+        padding: 13px 20px;
+        background: #000;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+
+}
+/* ------------------------------------------------------------------768px responsive-----Contact -----*/
+@media all and (max-width: 768px){
+    #Contact{
+
+    }
+    .container.Contact{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .Contact-left{
+        width: 45%;
+    }
+    .Contact-left img{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    .Contact-right{
+        width: 45%;
+    }
+    .Contact-right h5{
+        font-size: 13px;
+        font-family: Poppins-Regular;
+        color: #757070;
+    }
+    .Contact-right h3{
+        font-size: 20px;
+        font-family: Poppins-Regular;
+        width: 100%;
+        line-height: 2rem;
+    }
+    .contact-card{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .contact-card h6{
+        font-size: 14px;
+        width: 100%;
+        margin: 15px 0;
+        font-family: Poppins-Regular;
+    }
+    .contact-card p{
+        font-size: 10px;
+        color: #757070;
+        margin: 5px 0;
+    }
+    .contact-card.one{
+        width: 40%;
+        margin:5px 30px 5px 0;
+    }
+    .contact-card.two{
+        width: 40%;
+        margin:5px 30px 5px 0;
+    }
+    .contacting-icon{
+        width: 20px;
+        height: 20px;
+    }
+    .Form{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 30px auto 15px;
+    }
+    .Form input{
+        padding: 10px 30px;
+        width: 100%;
+        border: none;
+        border-bottom: #555 2px solid;
+        margin: 10px auto;
+    }
+    .form-input.text{
+        width: 27%;
+        margin: auto 0;
+    }
+    .form-input.phonenumber{
+        width: 27%;
+        border-bottom: #555 2px solid;
+        margin: auto 0;
+    }
+    .buttonbox{
+        display: flex;
+        justify-content: flex-end;
+        height: auto;
+        width: 100%;
+        margin: 10px 0;
+    }
+    .contact-button{
+        padding: 13px 20px;
+        background: #000;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+
+}
+/* ------------------------------------------------------------------640px responsive-----Contact -----*/
+@media all and (max-width: 640px){
+    #Contact{
+
+    }
+    .container.Contact{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .Contact-left{
+        width: 75%;
+        margin: auto;
+    }
+    .Contact-left img{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    .Contact-right{
+        width: 75%;
+        margin: auto;
+    }
+    .Contact-right h5{
+        font-size: 13px;
+        font-family: Poppins-Regular;
+        color: #757070;
+    }
+    .Contact-right h3{
+        font-size: 33px;
+        font-family: Poppins-Regular;
+        width: 100%;
+        line-height: 3rem;
+    }
+    .contact-card{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .contact-card h6{
+        font-size: 14px;
+        width: 100%;
+        margin: 15px 0;
+        font-family: Poppins-Regular;
+    }
+    .contact-card p{
+        font-size: 10px;
+        color: #757070;
+        margin: 5px 0;
+    }
+    .contact-card.one{
+        width: 40%;
+        margin:5px 30px 5px 0;
+    }
+    .contact-card.two{
+        width: 40%;
+        margin:5px 30px 5px 0;
+    }
+    .contacting-icon{
+        width: 20px;
+        height: 20px;
+    }
+    .Form{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 30px auto 15px;
+    }
+    .Form input{
+        padding: 10px 30px;
+        width: 100%;
+        border: none;
+        border-bottom: #555 2px solid;
+        margin: 10px auto;
+    }
+    .form-input.text{
+        width: 27%;
+        margin: auto 0;
+    }
+    .form-input.phonenumber{
+        width: 27%;
+        border-bottom: #555 2px solid;
+        margin: auto 0;
+    }
+    .buttonbox{
+        display: flex;
+        justify-content: flex-end;
+        height: auto;
+        width: 100%;
+        margin: 10px 0;
+    }
+    .contact-button{
+        padding: 13px 20px;
+        background: #000;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+
+}
+/* ------------------------------------------------------------------480px responsive-----Contact -----*/
+@media all and (max-width: 480px){
+    #Contact{
+
+    }
+    .container.Contact{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .Contact-left{
+        width: 75%;
+        margin: auto;
+    }
+    .Contact-left img{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    .Contact-right{
+        width: 75%;
+        margin: auto;
+    }
+    .Contact-right h5{
+        font-size: 13px;
+        font-family: Poppins-Regular;
+        color: #757070;
+    }
+    .Contact-right h3{
+        font-size: 25px;
+        font-family: Poppins-Regular;
+        width: 100%;
+        line-height: 3rem;
+    }
+    .contact-card{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .contact-card h6{
+        font-size: 13px;
+        width: 100%;
+        margin: 15px 0;
+        font-family: Poppins-Regular;
+    }
+    .contact-card p{
+        font-size: 10px;
+        color: #757070;
+        margin: 5px 0;
+    }
+    .contact-card.one{
+        width: 40%;
+        margin:5px 30px 5px 0;
+    }
+    .contact-card.two{
+        width: 40%;
+        margin:5px 30px 5px 0;
+    }
+    .contacting-icon{
+        width: 20px;
+        height: 20px;
+    }
+    .Form{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 30px auto 15px;
+    }
+    .Form input{
+        padding: 10px 30px;
+        width: 100%;
+        border: none;
+        border-bottom: #555 2px solid;
+        margin: 10px auto;
+    }
+    .form-input.text{
+        width: 27%;
+        margin: auto 0;
+    }
+    .form-input.phonenumber{
+        width: 27%;
+        border-bottom: #555 2px solid;
+        margin: auto 0;
+    }
+    .buttonbox{
+        display: flex;
+        justify-content: flex-end;
+        height: auto;
+        width: 100%;
+        margin: 10px 0;
+    }
+    .contact-button{
+        padding: 13px 20px;
+        background: #000;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 13px;
+    }
+
+}
+/* ------------------------------------------------------------------360px responsive-----Contact -----*/
+@media all and (max-width: 360px){
+    #Contact{
+
+    }
+    .container.Contact{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .Contact-left{
+        width: 75%;
+        margin: auto;
+    }
+    .Contact-left img{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    .Contact-right{
+        width: 75%;
+        margin: auto;
+    }
+    .Contact-right h5{
+        font-size: 13px;
+        font-family: Poppins-Regular;
+        color: #757070;
+    }
+    .Contact-right h3{
+        font-size: 20px;
+        font-family: Poppins-Regular;
+        width: 100%;
+        line-height: 3rem;
+    }
+    .contact-card{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .contact-card h6{
+        font-size: 13px;
+        width: 100%;
+        margin: 15px 0;
+        font-family: Poppins-Regular;
+    }
+    .contact-card p{
+        font-size: 10px;
+        color: #757070;
+        margin: 5px 0;
+    }
+    .contact-card.one{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .contact-card.two{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .contacting-icon{
+        width: 20px;
+        height: 20px;
+        margin: auto;
+    }
+    .Form{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 30px auto 15px;
+    }
+    .Form input{
+        padding: 10px 30px;
+        width: 100%;
+        border: none;
+        border-bottom: #555 2px solid;
+        margin: 10px auto;
+    }
+    .form-input.text{
+        width: 100%;
+        margin: auto 0;
+    }
+    .form-input.phonenumber{
+        width: 100%;
+        border-bottom: #555 2px solid;
+        margin: auto 0;
+    }
+    .buttonbox{
+        display: flex;
+        justify-content: flex-end;
+        height: auto;
+        width: 100%;
+        margin: 10px 0;
+    }
+    .contact-button{
+        padding: 13px 20px;
+        background: #000;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 11px;
+    }
+
+}
+/* ------------------------------------------------------------------320px responsive-----Contact -----*/
+@media all and (max-width: 320px){
+    #Contact{
+
+    }
+    .container.Contact{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .Contact-left{
+        width: 75%;
+        margin: auto;
+    }
+    .Contact-left img{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    .Contact-right{
+        width: 75%;
+        margin: auto;
+    }
+    .Contact-right h5{
+        font-size: 13px;
+        font-family: Poppins-Regular;
+        color: #757070;
+    }
+    .Contact-right h3{
+        font-size: 17px;
+        font-family: Poppins-Regular;
+        width: 100%;
+        line-height: 3rem;
+    }
+    .contact-card{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .contact-card h6{
+        font-size: 13px;
+        width: 100%;
+        margin: 15px 0;
+        font-family: Poppins-Regular;
+    }
+    .contact-card p{
+        font-size: 7px;
+        color: #757070;
+        margin: 5px 0;
+        text-align: center;
+    }
+    .contact-card.one{
+        width: 100%;
+        margin: auto;
+    }
+    .contact-card.two{
+        width: 100%;
+        margin: auto;
+    }
+    .contacting-icon{
+        width: 20px;
+        height: 20px;
+    }
+    .Form{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 30px auto 15px;
+    }
+    .Form input{
+        padding: 10px 30px;
+        width: 100%;
+        border: none;
+        border-bottom: #555 2px solid;
+        margin: 10px auto;
+    }
+    .form-input.text{
+        width: 100%;
+        margin: auto 0;
+    }
+    .form-input.phonenumber{
+        width: 100%;
+        border-bottom: #555 2px solid;
+        margin: auto 0;
+    }
+    .buttonbox{
+        display: flex;
+        justify-content: flex-end;
+        height: auto;
+        width: 100%;
+        margin: 10px 0;
+    }
+    .contact-button{
+        padding: 13px 20px;
+        background: #000;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 11px;
+    }
+
+}
