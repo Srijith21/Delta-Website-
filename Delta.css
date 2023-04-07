@@ -5583,3 +5583,330 @@ ul li{
     }
 
 }
+
+/* ///////////////////////////////////////////////////////////////////////////<-- Community --> */
+#Community{
+    background: #FFFCF3;
+    padding: 25px 0;
+}
+.container.Community{
+
+}
+.communitybox{
+    background: #000;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    padding: 25px 0;
+    margin: 50px auto;
+}
+.communitybox h5{
+    font-size: 15px;
+    font-family: Poppins-Regular;
+    margin: 25px auto;
+}
+.communitybox h3{
+    font-size: 40px;
+    margin: 25px auto;
+    font-family: Poppins-Regular;
+}
+.communitybox p{
+    font-size: 15px;
+    font-family: Poppins-Regular;
+    width: 33%;
+    margin: 25px auto;
+}
+.enter-email-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 27%;
+    margin: 40px auto;
+    border: #555 2px solid;
+    border-radius: 20px;
+}
+.community-enter-email-input{
+    background: none;
+    border: none;
+    margin: auto;
+}
+.green-get-started{
+    background: #D5FA52;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+/* ------------------------------------------------------------------980px responsive-----Community -----*/
+@media all and (max-width: 980px){
+    #Community{
+        background: #FFFCF3;
+        padding: 25px 0;
+    }
+    .container.Community{
+    
+    }
+    .communitybox{
+        background: #000;
+        border-radius: 10px;
+        color: #fff;
+        text-align: center;
+        padding: 25px 0;
+        margin: 50px auto;
+    }
+    .communitybox h5{
+        font-size: 15px;
+        font-family: Poppins-Regular;
+        margin: 25px auto;
+    }
+    .communitybox h3{
+        font-size: 40px;
+        margin: 25px auto;
+        font-family: Poppins-Regular;
+    }
+    .communitybox p{
+        font-size: 14px;
+        font-family: Poppins-Regular;
+        width: 50%;
+        margin: 25px auto;
+    }
+    .enter-email-box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 40%;
+        margin: 40px auto;
+        border: #555 2px solid;
+        border-radius: 20px;
+    }
+    .community-enter-email-input{
+        background: none;
+        border: none;
+        margin: auto;
+    }
+    .green-get-started{
+        background: #D5FA52;
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+}
+/* ------------------------------------------------------------------768px responsive-----Community -----*/
+@media all and (max-width: 768px){
+    #Community{
+        background: #FFFCF3;
+        padding: 25px 0;
+    }
+    .container.Community{
+    
+    }
+    .communitybox{
+        background: #000;
+        border-radius: 10px;
+        color: #fff;
+        text-align: center;
+        padding: 25px 0;
+        margin: 50px auto;
+    }
+    .communitybox h5{
+        font-size: 15px;
+        font-family: Poppins-Regular;
+        margin: 25px auto;
+    }
+    .communitybox h3{
+        font-size: 33px;
+        margin: 25px auto;
+        font-family: Poppins-Regular;
+    }
+    .communitybox p{
+        font-size: 12px;
+        font-family: Poppins-Regular;
+        width: 60%;
+        margin: 25px auto;
+    }
+    .enter-email-box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+        margin: 40px auto;
+        border: #555 2px solid;
+        border-radius: 20px;
+    }
+    .community-enter-email-input{
+        background: none;
+        border: none;
+        margin: auto;
+    }
+    .green-get-started{
+        background: #D5FA52;
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+}
+/* ------------------------------------------------------------------480px responsive-----Community -----*/
+@media all and (max-width: 480px){
+    #Community{
+        background: #FFFCF3;
+        padding: 25px 0;
+    }
+    .container.Community{
+    
+    }
+    .communitybox{
+        background: #000;
+        border-radius: 10px;
+        color: #fff;
+        text-align: center;
+        padding: 25px 0;
+        margin: 50px auto;
+    }
+    .communitybox h5{
+        font-size: 10px;
+        font-family: Poppins-Regular;
+        margin: 25px auto;
+    }
+    .communitybox h3{
+        font-size: 24px;
+        margin: 25px auto;
+        font-family: Poppins-Regular;
+    }
+    .communitybox p{
+        font-size: 10px;
+        font-family: Poppins-Regular;
+        width: 80%;
+        margin: 25px auto;
+    }
+    .enter-email-box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: 40px auto;
+        border: #555 2px solid;
+        border-radius: 20px;
+    }
+    .community-enter-email-input{
+        background: none;
+        border: none;
+        margin: auto;
+        width: auto;
+        padding: 5px 5px;
+    }
+    .green-get-started{
+        background: #D5FA52;
+        border-radius: 20px;
+        font-size: 12px;
+        padding: 7px 5px;
+    }
+}
+/* ------------------------------------------------------------------360px responsive-----Community -----*/
+@media all and (max-width: 360px){
+    #Community{
+        background: #FFFCF3;
+        padding: 25px 0;
+    }
+    .container.Community{
+    
+    }
+    .communitybox{
+        background: #000;
+        border-radius: 10px;
+        color: #fff;
+        text-align: center;
+        padding: 25px 0;
+        margin: 50px auto;
+    }
+    .communitybox h5{
+        font-size: 10px;
+        font-family: Poppins-Regular;
+        margin: 25px auto;
+    }
+    .communitybox h3{
+        font-size: 24px;
+        margin: 25px auto;
+        font-family: Poppins-Regular;
+    }
+    .communitybox p{
+        font-size: 10px;
+        font-family: Poppins-Regular;
+        width: 80%;
+        margin: 25px auto;
+    }
+    .enter-email-box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: 40px auto;
+        border: #555 2px solid;
+        border-radius: 20px;
+    }
+    .community-enter-email-input{
+        background: none;
+        border: none;
+        margin: auto;
+        width: auto;
+        padding: 5px 5px;
+    }
+    .green-get-started{
+        background: #D5FA52;
+        border-radius: 20px;
+        font-size: 12px;
+        padding: 7px 5px;
+    }
+}
+/* ------------------------------------------------------------------320px responsive-----Community -----*/
+@media all and (max-width: 320px){
+    #Community{
+        background: #FFFCF3;
+        padding: 25px 0;
+    }
+    .container.Community{
+    
+    }
+    .communitybox{
+        background: #000;
+        border-radius: 10px;
+        color: #fff;
+        text-align: center;
+        padding: 25px 0;
+        margin: 50px auto;
+    }
+    .communitybox h5{
+        font-size: 10px;
+        font-family: Poppins-Regular;
+        margin: 25px auto;
+    }
+    .communitybox h3{
+        font-size: 24px;
+        margin: 25px auto;
+        font-family: Poppins-Regular;
+    }
+    .communitybox p{
+        font-size: 10px;
+        font-family: Poppins-Regular;
+        width: 80%;
+        margin: 25px auto;
+    }
+    .enter-email-box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: 40px auto;
+        border: #555 2px solid;
+        border-radius: 20px;
+    }
+    .community-enter-email-input{
+        background: none;
+        border: none;
+        margin: auto;
+        width: auto;
+        padding: 5px 5px;
+    }
+    .green-get-started{
+        background: #D5FA52;
+        border-radius: 20px;
+        font-size: 8px;
+        padding: 7px 6px;
+    }
+}
